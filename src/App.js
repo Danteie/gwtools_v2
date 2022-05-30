@@ -7,7 +7,7 @@ import TTBL from './component/Content/TTBLLinije/TTBLLinija';
 import Qa from './component/Content/Qa/Qa';
 import Home from './component/Content/Home/Home';
 import Fun from './component/Fun/Fun';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, HashRouter, Route } from 'react-router-dom';
 
 class App extends Component {
   constructor(props) {
@@ -25,12 +25,12 @@ class App extends Component {
           <hr/>
           <div className='flex'>
             <Menu/>
-            <Routes>
+            <HashRouter>
               <Route path="/" element={<Home/>}/>
               <Route path="/webinar" element={<Webinar/>}/>
               <Route path="/ttbl" element={<TTBL/>}/>
               <Route path="/qa" element={<Qa/>}/>
-            </Routes>
+            </HashRouter>
           </div>
           <Fun />
         </div>
