@@ -3,6 +3,7 @@ menu{
 }
 
 button{
+    width: 100%;
     height: 2rem;
     margin: 4px;
     display: inline-block;
