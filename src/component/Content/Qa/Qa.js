@@ -25,7 +25,7 @@ export default function Qa() {
         <div>
             <select 
             onClick={(event) => {
-                // here set target value to state which is 0, 1, 2, 3
+                // here set target value to state which is 1, 2, 3
                 setAnimal(event.target.value);
             }}>
                 <option value="1" defaultValue>Web</option>

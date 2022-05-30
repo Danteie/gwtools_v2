@@ -11,3 +11,8 @@ table, th, td {
     width: 100%;
     height: 2rem;
 }
+
+.title{
+    color: white;
+    text-decoration: none;
+}
