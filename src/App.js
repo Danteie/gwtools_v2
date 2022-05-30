@@ -26,7 +26,7 @@ class App extends Component {
           <div className='flex'>
             <Menu/>
             <Routes>
-              <Route path="/gwtools_v2" element={<Home/>}/>
+              <Route path="/" element={<Home/>}/>
               <Route path="/webinar" element={<Webinar/>}/>
               <Route path="/ttbl" element={<TTBL/>}/>
               <Route path="/qa" element={<Qa/>}/>
