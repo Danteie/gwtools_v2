@@ -5,6 +5,7 @@ import Menu from './component/Menu/Menu';
 import Webinar from './component/Content/WebinarLinije/WebinarLinije';
 import TTBL from './component/Content/TTBLLinije/TTBLLinija';
 import Qa from './component/Content/Qa/Qa';
+import AdUnits from './component/Content/AdUnits/AdUnits';
 import Home from './component/Content/Home/Home';
 import Fun from './component/Fun/Fun';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
@@ -30,6 +31,7 @@ class App extends Component {
               <Route path="/webinar" element={<Webinar/>}/>
               <Route path="/ttbl" element={<TTBL/>}/>
               <Route path="/qa" element={<Qa/>}/>
+              <Route path="/ad" element={<AdUnits/>}/>
             </Routes>
           </div>
           <Fun />

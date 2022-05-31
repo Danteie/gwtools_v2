@@ -9,7 +9,7 @@ const Menu = () => {
             <Link to="/webinar"><button  id='webinar'>WEBINAR</button></Link>
             <Link to="/ttbl"><button  id='ttbl'>TTBL</button></Link>
             <Link to="/qa"><button  id='qa'>Qa</button></Link>
-            <button  id="ad">AD UNITS</button>
+            <Link to="/ad"><button  id='ad'>AD UNITS</button></Link>
         </menu>
     )
 }

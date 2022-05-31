@@ -5,7 +5,7 @@ import QaSpon from './QaSpon'
 
 export default function Qa() {
 
-    const [qa, setAnimal] = useState(null);
+    const [qa, setQa] = useState(null);
 
     function getQaDiv(){
         switch(qa){
@@ -23,12 +23,14 @@ export default function Qa() {
     return (
         <div className="ba br2 pa2 ma2 bg-c w-100">
         <div>
+            <label>Izaberite Qa </label>
             <select 
             onClick={(event) => {
                 // here set target value to state which is 1, 2, 3
-                setAnimal(event.target.value);
+                setQa(event.target.value);
             }}>
-                <option value="1" defaultValue>Web</option>
+                <option defaultValue></option>
+                <option value="1">Web</option>
                 <option value="2">Bulletins: Click Tracking</option>
                 <option value="3">Bulletins: Sponsorship</option>
             </select>
