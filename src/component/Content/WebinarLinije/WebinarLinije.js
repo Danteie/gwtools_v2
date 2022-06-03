@@ -31,7 +31,7 @@ class WebinarLinije extends Component{
             
             if (this.state.position[index] === "NTV"){
                 //NTV linija
-                lines += `${siteName}_${adverName}_${champName}_WBASE_${this.state.position[index]}${ntvName}_${date}</br>`
+                lines += `${siteName}_${adverName}_${champName}_WBASE_${this.state.position[index]}_${ntvName}_${date}</br>`
                 orderName.innerHTML = lines; 
                 return
             }else{
@@ -69,12 +69,12 @@ class WebinarLinije extends Component{
                     <input type="text" placeholder="ime advertajzera" className="w-100" id='a-name'/>
                     <input type="text" placeholder="kampanja" className="w-100 h2" id='c-name'/>
                     <select id='ntv-option'>
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="5">5</option>
-                        <option value="6">6</option>
+                        <option value="01">1</option>
+                        <option value="02">2</option>
+                        <option value="03">3</option>
+                        <option value="04">4</option>
+                        <option value="05">5</option>
+                        <option value="06">6</option>
                     </select>
                 </div>
                
