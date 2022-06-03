@@ -1,7 +1,7 @@
 export function getCurrentDate(separator=''){
 
     let newDate = new Date()
-    let date = newDate.getDate();
+    let date = ('0' + newDate.getDate()).slice(-2);
     let month = newDate.getMonth() + 1;
     let year = newDate.getFullYear();
     

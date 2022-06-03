@@ -31,12 +31,12 @@ class WebinarLinije extends Component{
             
             if (this.state.position[index] === "NTV"){
                 //NTV linija
-                lines += `${siteName}_${adverName}_${champName}_${this.state.position[index]}${ntvName}_${date}</br>`
+                lines += `${siteName}_${adverName}_${champName}_WBASE_${this.state.position[index]}${ntvName}_${date}</br>`
                 orderName.innerHTML = lines; 
                 return
             }else{
                  //Rest of the lines
-                lines += `${siteName}_${adverName}_${champName}_${this.state.position[index]}_${date}</br>`
+                lines += `${siteName}_${adverName}_${champName}_WBASE_${this.state.position[index]}_${date}</br>`
                 orderName.innerHTML = lines;  
             }
            
