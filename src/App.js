@@ -7,6 +7,8 @@ import TTBL from './component/Content/TTBLLinije/TTBLLinija';
 import Qa from './component/Content/Qa/Qa';
 import AdUnits from './component/Content/AdUnits/AdUnits';
 import Home from './component/Content/Home/Home';
+import NwSetup from './component/Content/NwSetup/NwSetup';
+import WebSetup from './component/Content/WebSetup/WebSetup';
 import Fun from './component/Fun/Fun';
 import Dolar from './component/Dolar/Dolar'
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
@@ -33,9 +35,11 @@ class App extends Component {
               <Route path="/ttbl" element={<TTBL/>}/>
               <Route path="/qa" element={<Qa/>}/>
               <Route path="/ad" element={<AdUnits/>}/>
+              <Route path="/nwsetup" element={<NwSetup/>}/>
+              <Route path="/websetup" element={<WebSetup/>}/>
             </Routes>
           </div>
-          <div className='flex w100'>
+          <div className='flex'>
             <Fun />
             <Dolar/>
           </div>
