@@ -40,6 +40,7 @@ class WebinarLinije extends Component{
                 orderName.innerHTML = lines;  
             }
            
+            
         }
 
         console.log(ntvName);

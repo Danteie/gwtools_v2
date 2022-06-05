@@ -16,3 +16,7 @@ table, th, td {
     color: white;
     text-decoration: none;
 }
+
+.w100{
+    width: 100%;
+}

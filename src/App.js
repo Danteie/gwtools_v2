@@ -8,6 +8,7 @@ import Qa from './component/Content/Qa/Qa';
 import AdUnits from './component/Content/AdUnits/AdUnits';
 import Home from './component/Content/Home/Home';
 import Fun from './component/Fun/Fun';
+import Dolar from './component/Dolar/Dolar'
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 
 class App extends Component {
@@ -34,7 +35,10 @@ class App extends Component {
               <Route path="/ad" element={<AdUnits/>}/>
             </Routes>
           </div>
-          <Fun />
+          <div className='flex w100'>
+            <Fun />
+            <Dolar/>
+          </div>
         </div>
       </Router>
     )
