@@ -1,15 +1,41 @@
 {
   "files": {
-    "main.css": "/gwtools_v2/static/css/main.c880ac66.css",
-    "main.js": "/gwtools_v2/static/js/main.e4c5e64e.js",
+    "main.css": "/gwtools_v2/static/css/main.002eac03.css",
+    "main.js": "/gwtools_v2/static/js/main.e2b4212e.js",
     "static/js/787.56d3bc49.chunk.js": "/gwtools_v2/static/js/787.56d3bc49.chunk.js",
+    "static/media/Web setup-12.jpg": "/gwtools_v2/static/media/Web setup-12.80bb9d2a8dd19b1c0e94.jpg",
+    "static/media/Newsletter Setup-9.jpg": "/gwtools_v2/static/media/Newsletter Setup-9.4a28b0daa809ffb27529.jpg",
+    "static/media/Web setup-11.jpg": "/gwtools_v2/static/media/Web setup-11.658d9cc292fb5a4fb619.jpg",
+    "static/media/Newsletter Setup-7.jpg": "/gwtools_v2/static/media/Newsletter Setup-7.0162dda2a83eb2a8da5c.jpg",
+    "static/media/Web setup-16.jpg": "/gwtools_v2/static/media/Web setup-16.277ba391f3c30716a33b.jpg",
+    "static/media/Newsletter Setup-8.jpg": "/gwtools_v2/static/media/Newsletter Setup-8.be8c906343086a521500.jpg",
+    "static/media/Newsletter Setup-4.jpg": "/gwtools_v2/static/media/Newsletter Setup-4.410e345d31064e5d8efc.jpg",
+    "static/media/Web setup-17.jpg": "/gwtools_v2/static/media/Web setup-17.13ce58aecd647b003be2.jpg",
+    "static/media/Newsletter Setup-3.jpg": "/gwtools_v2/static/media/Newsletter Setup-3.cd818faaf0aaedc7f6cb.jpg",
+    "static/media/Web setup-04.jpg": "/gwtools_v2/static/media/Web setup-04.494f46988118a8940805.jpg",
+    "static/media/Web setup-01.jpg": "/gwtools_v2/static/media/Web setup-01.60f7570cba2dfdaa0268.jpg",
+    "static/media/Web setup-13.jpg": "/gwtools_v2/static/media/Web setup-13.259f3b914889e4f67ea1.jpg",
+    "static/media/Newsletter Setup-2.jpg": "/gwtools_v2/static/media/Newsletter Setup-2.4cbe179a10ad385b41d4.jpg",
+    "static/media/Web setup-08.jpg": "/gwtools_v2/static/media/Web setup-08.85e256e43201a8aa02c4.jpg",
+    "static/media/Web setup-05.jpg": "/gwtools_v2/static/media/Web setup-05.7bd8614a1a299b19dc87.jpg",
+    "static/media/Web setup-07.jpg": "/gwtools_v2/static/media/Web setup-07.ea28f3bc70ef4d769b84.jpg",
+    "static/media/Newsletter Setup-1.jpg": "/gwtools_v2/static/media/Newsletter Setup-1.52fff08e93d286ba731a.jpg",
+    "static/media/Web setup-09.jpg": "/gwtools_v2/static/media/Web setup-09.9d3a41f35a353d5f6089.jpg",
+    "static/media/Web setup-10.jpg": "/gwtools_v2/static/media/Web setup-10.c61f50bede997826b40c.jpg",
+    "static/media/Newsletter Setup-5.jpg": "/gwtools_v2/static/media/Newsletter Setup-5.717df43d9ebe8f203ba0.jpg",
+    "static/media/Newsletter Setup-6.jpg": "/gwtools_v2/static/media/Newsletter Setup-6.3b8e14c9a841fe16d740.jpg",
+    "static/media/Web setup-02.jpg": "/gwtools_v2/static/media/Web setup-02.ff66cc6a1c1641b0b57d.jpg",
+    "static/media/Web setup-03.jpg": "/gwtools_v2/static/media/Web setup-03.aedf8c12a75e53b18a9e.jpg",
+    "static/media/Web setup-14.jpg": "/gwtools_v2/static/media/Web setup-14.b0c2172e5fbecfa8a510.jpg",
+    "static/media/Web setup-15.jpg": "/gwtools_v2/static/media/Web setup-15.a708a3044ab3d76965e0.jpg",
+    "static/media/Web setup-06.jpg": "/gwtools_v2/static/media/Web setup-06.a8f4401ca48e0b527a16.jpg",
     "index.html": "/gwtools_v2/index.html",
-    "main.c880ac66.css.map": "/gwtools_v2/static/css/main.c880ac66.css.map",
-    "main.e4c5e64e.js.map": "/gwtools_v2/static/js/main.e4c5e64e.js.map",
+    "main.002eac03.css.map": "/gwtools_v2/static/css/main.002eac03.css.map",
+    "main.e2b4212e.js.map": "/gwtools_v2/static/js/main.e2b4212e.js.map",
     "787.56d3bc49.chunk.js.map": "/gwtools_v2/static/js/787.56d3bc49.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c880ac66.css",
-    "static/js/main.e4c5e64e.js"
+    "static/css/main.002eac03.css",
+    "static/js/main.e2b4212e.js"
   ]
 }
