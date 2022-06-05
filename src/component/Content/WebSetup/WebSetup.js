@@ -46,7 +46,6 @@ class WebSetup extends Component{
                 <img src={img15} alt="slika1"></img>
                 <img src={img16} alt="slika1"></img>
                 <img src={img17} alt="slika1"></img>
-            
             </div> 
         )
               

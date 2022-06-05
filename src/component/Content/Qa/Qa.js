@@ -7,14 +7,21 @@ export default function Qa() {
 
     const [qa, setQa] = useState(null);
 
+    function inputReset() {
+        const getInput = document.getElementsByTagName("input")
+        for (let index = 0; index < getInput.length; index++) {
+            if (getInput[index].checked)  getInput[index].checked = false;    
+        }
+    }
+
     function getQaDiv(){
         switch(qa){
             case "1":
-                return <div><QaWeb/></div>;
+                return <div><QaWeb inputReset={inputReset}/></div>;
             case "2":
-                return <div><QaClick/></div>;
+                return <div><QaClick inputReset={inputReset}/></div>;
             case "3":
-                return <div><QaSpon/></div>;
+                return <div><QaSpon inputReset={inputReset}/></div>;
             default:
                 return null;
         }

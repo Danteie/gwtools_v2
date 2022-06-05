@@ -1,6 +1,6 @@
 import React from "react";
 
-const QaWeb = () => {
+const QaWeb = ({inputReset}) => {
     return(
     <div>
         <h1 className="centar">Qa Web</h1>
@@ -81,6 +81,11 @@ const QaWeb = () => {
                 <td>Check if URL is working correctly</td>
                   <td><input type="checkbox" className="input-qa"/></td>
             </tr>
+            <tr className="reset-qa">
+                    <td></td>
+                    <td></td>
+                    <td><button onClick={inputReset}>reset</button></td>
+                </tr>
             </tbody>
         </table>
     </div>

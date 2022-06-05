@@ -1,6 +1,6 @@
 import React from "react";
 
-const QaSpon = () => {
+const QaSpon = ({inputReset}) => {
     return(
     <div>
         <h1 className="centar">Bulletins: Sponsorship</h1>
@@ -66,6 +66,11 @@ const QaSpon = () => {
                 <td>Send date</td>
                   <td><input type="checkbox" className="input-qa"/></td>
             </tr>
+            <tr className="reset-qa">
+                    <td></td>
+                    <td></td>
+                    <td><button onClick={inputReset}>reset</button></td>
+                </tr>
             </tbody>
         </table>
     </div>
