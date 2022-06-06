@@ -24,3 +24,8 @@ table, th, td {
 .w100{
     width: 100%;
 }
+
+.file-button{
+    width: auto;
+    margin: 1rem;
+}
