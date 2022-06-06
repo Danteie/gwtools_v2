@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/gwtools_v2/static/css/main.33ba66be.css",
-    "main.js": "/gwtools_v2/static/js/main.94074f01.js",
+    "main.js": "/gwtools_v2/static/js/main.48d54d65.js",
     "static/js/787.56d3bc49.chunk.js": "/gwtools_v2/static/js/787.56d3bc49.chunk.js",
     "static/media/White Papers - updated 06.06.2022.docx": "/gwtools_v2/static/media/White Papers - updated 06.06.2022.b9de25336b0bb3c69c5a.docx",
     "static/media/Web setup-12.jpg": "/gwtools_v2/static/media/Web setup-12.80bb9d2a8dd19b1c0e94.jpg",
@@ -32,11 +32,11 @@
     "static/media/Web setup-06.jpg": "/gwtools_v2/static/media/Web setup-06.a8f4401ca48e0b527a16.jpg",
     "index.html": "/gwtools_v2/index.html",
     "main.33ba66be.css.map": "/gwtools_v2/static/css/main.33ba66be.css.map",
-    "main.94074f01.js.map": "/gwtools_v2/static/js/main.94074f01.js.map",
+    "main.48d54d65.js.map": "/gwtools_v2/static/js/main.48d54d65.js.map",
     "787.56d3bc49.chunk.js.map": "/gwtools_v2/static/js/787.56d3bc49.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.33ba66be.css",
-    "static/js/main.94074f01.js"
+    "static/js/main.48d54d65.js"
   ]
 }
