@@ -11,6 +11,7 @@ import NwSetup from './component/Content/NwSetup/NwSetup';
 import WebSetup from './component/Content/WebSetup/WebSetup';
 import Fun from './component/Fun/Fun';
 import Dolar from './component/Dolar/Dolar'
+import Payday from './component/Payday/Payday'
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 
 class App extends Component {
@@ -41,6 +42,7 @@ class App extends Component {
           </div>
           <div className='flex'>
             <Fun />
+            <Payday/>
             <Dolar/>
           </div>
         </div>
