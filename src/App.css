@@ -25,7 +25,20 @@ table, th, td {
     width: 100%;
 }
 
+.file-button-container{
+    display: flex;
+    gap: 1rem;
+}
+
 .file-button{
     width: auto;
-    margin: 1rem;
+    background: radial-gradient( 100% 100% at 100% 0%, #89E5FF 0%, #5468FF 100% );
+    padding: 1rem;
+    border-radius: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.file-button:hover{
+    transform: scale(1.3);
 }

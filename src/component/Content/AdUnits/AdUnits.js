@@ -1,5 +1,9 @@
 import React, { useState } from "react";
 import Gnwo from './GnwoAd'
+import Gdxo from './GdxoAd'
+import Gpo from './GpoAd'
+import GnwoEu from './GnwoEuAd'
+import GdxoEu from './GdxoEuAd'
 
 
 export default function AdUnits() {
@@ -11,13 +15,13 @@ export default function AdUnits() {
             case "1":
                 return <div><Gnwo/></div>;
             case "2":
-                return <div>2</div>;
+                return <div><Gdxo/></div>;
             case "3":
-                return <div>3</div>;
+                return <div><Gpo/></div>;
             case "4":
-                return <div>4</div>;
+                return <div><GnwoEu/></div>;
             case "5":
-                return <div>5</div>;
+                return <div><GdxoEu/></div>;
             default:
                 return null;
         }

@@ -173,9 +173,101 @@ const GnwoAd= () => {
                     </div>
                 )
             case "4":
-                return <div>4</div>;
+                return <div>
+                        <h3>Sequencing</h3>
+                        <hr/>
+                        gw_cancer_bulletin_middle_mrec_thu<br/>
+                        gw_cancer_bulletin_center_thu<br/>
+                        gw_cancer_bulletin_bottom_thu<br/>
+                        gw_cancer_bulletin_bottom_2_thu<br/>
+                        gw_cancer_bulletin_footer1_thu<br/>
+                        gw_cancer_bulletin_footer2_thu<br/>
+                        gw_cancer_bulletin_footer3_thu<br/>
+                        <h3>Proteomics/Protein Research</h3>
+                        <hr/>
+                        gw_molecular_diagnostics_bulletin_middle_mrec_thu<br/>
+                        gw_molecular_diagnostics_bulletin_center_thu<br/>
+                        gw_molecular_diagnostics_bulletin_bottom_thu<br/>
+                        gw_molecular_diagnostics_bulletin_bottom_2_thu<br/>
+                        gw_molecular_diagnostics_bulletin_footer1_thu<br/>
+                        gw_molecular_diagnostics_bulletin_footer2_thu<br/>
+                        gw_molecular_diagnostics_bulletin_footer3_thu<br/>  
+                        <h3>Daily News AM</h3>
+                        <hr/> 
+                        gw_dnam_bulletin_top_thu<br/>
+                        gw_dnam_bulletin_middle_mrec_thu<br/>
+                        gw_dnam_bulletin_center_thu<br/>
+                        gw_dnam_bulletin_bottom_thu<br/>
+                        gw_dnam_bulletin_bottom_2_thu<br/>
+                        gw_dnam_bulletin_footer1_thu<br/>
+                        gw_dnam_bulletin_footer2_thu<br/>
+                        gw_dnam_bulletin_footer3_thu<br/>
+                        <h3>Daily News PM</h3>
+                        <hr/>
+                        gw_dnpm_bulletin_middle_mrec_thu<br/>
+                        gw_dnpm_bulletin_center_thu<br/>
+                        gw_dnpm_bulletin_bottom_thu<br/>
+                        gw_dnpm_bulletin_bottom_2_thu<br/>
+                        gw_dnpm_bulletin_footer1_thu<br/>
+                        gw_dnpm_bulletin_footer2_thu<br/>
+                        gw_dnpm_bulletin_footer3_thu<br/>
+                        <h3>Daily Scan</h3>
+                        <hr/>
+                        gw_dsbl_bulletin_top_thu<br/>
+                        gw_dsbl_bulletin_center_thu<br/>
+                        gw_dsbl_bulletin_bottom_thu<br/>
+                        gw_dsbl_bulletin_bottom_2_thu<br/>
+                        gw_dsbl_bulletin_footer1_thu<br/>
+                        gw_dsbl_bulletin_footer2_thu<br/>
+                        gw_dsbl_bulletin_footer3_thu<br/>
+                    </div>;
             case "5":
-                return <div>5</div>;
+                return <div>
+                        <h3>Europe </h3>
+                        <hr/>
+                        gw_europe_bulletin_bottom_2<br/>
+                        gw_europe_bulletin_footer1<br/>
+                        gw_europe_bulletin_footer2<br/>
+                        gw_europe_bulletin_footer3<br/>
+                        <h3>Sequencing</h3>
+                        <hr/>
+                        gw_sequencing_bulletin_middle_mrec_fri<br/>
+                        gw_sequencing_bulletin_center_fri<br/>
+                        gw_sequencing_bulletin_bottom_fri<br/>
+                        gw_sequencing_bulletin_bottom_2_fri<br/>
+                        gw_sequencing_bulletin_footer1_fri<br/>
+                        gw_sequencing_bulletin_footer2_fri<br/>
+                        gw_sequencing_bulletin_footer3_fri<br/>
+                        <h3>Daily News AM</h3>
+                        <hr/>
+                        gw_dnam_bulletin_top_fri<br/>
+                        gw_dnam_bulletin_middle_mrec_fri<br/>
+                        gw_dnam_bulletin_center_fri<br/>
+                        gw_dnam_bulletin_bottom_fri<br/>
+                        gw_dnam_bulletin_bottom_2_fri<br/>
+                        gw_dnam_bulletin_footer1_fri<br/>
+                        gw_dnam_bulletin_footer2_fri<br/>
+                        gw_dnam_bulletin_footer3_fri<br/>
+                        <h3>Daily News PM</h3>
+                        <hr/>
+                        gw_dnpm_bulletin_top_fri<br/>
+                        gw_dnpm_bulletin_middle_mrec_fri<br/>
+                        gw_dnpm_bulletin_center_fri<br/>
+                        gw_dnpm_bulletin_bottom_fri<br/>
+                        gw_dnpm_bulletin_bottom_2_fri<br/>
+                        gw_dnpm_bulletin_footer1_fri<br/>
+                        gw_dnpm_bulletin_footer2_fri<br/>
+                        gw_dnpm_bulletin_footer3_fri<br/>
+                        <h3>Daily Scan</h3>
+                        <hr/>
+                        gw_dsbl_bulletin_top_fri<br/>
+                        gw_dsbl_bulletin_center_fri<br/>
+                        gw_dsbl_bulletin_bottom_fri<br/>
+                        gw_dsbl_bulletin_bottom_2_fri<br/>
+                        gw_dsbl_bulletin_footer1_fri<br/>
+                        gw_dsbl_bulletin_footer2_fri<br/>
+                        gw_dsbl_bulletin_footer3_fri<br/>
+                       </div>;
             default:
                 return null;
         }
