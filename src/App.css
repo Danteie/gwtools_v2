@@ -45,7 +45,7 @@ table, th, td {
 }
 
 .file-button:hover{
-    transform: scale(1.3);
+    transform: scale(1.1);
 }
 
 .small{
@@ -54,4 +54,6 @@ table, th, td {
     position: absolute;
     top: 90%;
     color: red;
+    font-weight: bold;
 }
+
