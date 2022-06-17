@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/gwtools_v2/static/css/main.583687a4.css",
-    "main.js": "/gwtools_v2/static/js/main.b716192f.js",
+    "main.js": "/gwtools_v2/static/js/main.c8bb63db.js",
     "static/js/787.56d3bc49.chunk.js": "/gwtools_v2/static/js/787.56d3bc49.chunk.js",
     "static/media/White Papers.docx": "/gwtools_v2/static/media/White Papers.b2979c5a10f37a37cb77.docx",
     "static/media/Web setup-12.jpg": "/gwtools_v2/static/media/Web setup-12.80bb9d2a8dd19b1c0e94.jpg",
@@ -32,11 +32,11 @@
     "static/media/Web setup-06.jpg": "/gwtools_v2/static/media/Web setup-06.a8f4401ca48e0b527a16.jpg",
     "index.html": "/gwtools_v2/index.html",
     "main.583687a4.css.map": "/gwtools_v2/static/css/main.583687a4.css.map",
-    "main.b716192f.js.map": "/gwtools_v2/static/js/main.b716192f.js.map",
+    "main.c8bb63db.js.map": "/gwtools_v2/static/js/main.c8bb63db.js.map",
     "787.56d3bc49.chunk.js.map": "/gwtools_v2/static/js/787.56d3bc49.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.583687a4.css",
-    "static/js/main.b716192f.js"
+    "static/js/main.c8bb63db.js"
   ]
 }
