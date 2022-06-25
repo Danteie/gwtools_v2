@@ -1,0 +1,24 @@
+.web-table{
+    background-color: white;
+    color: black;
+    width: 100%;
+}
+
+.web-table tr>*{
+    font-size: 1.3rem;
+}
+
+.web-table tr td:nth-child(3) {
+    text-align: center;
+}
+
+.web-table-title >*{
+    font-weight: bold;
+    text-align: center;
+    background-color: yellow;
+}
+
+.web-image{
+    display: flex;
+    justify-content: center;
+}

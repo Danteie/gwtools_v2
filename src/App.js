@@ -9,6 +9,7 @@ import AdUnits from './component/Content/AdUnits/AdUnits';
 import Home from './component/Content/Home/Home';
 import NwSetup from './component/Content/NwSetup/NwSetup';
 import WebSetup from './component/Content/WebSetup/WebSetup';
+import Naming from './component/Content/Naming/Naming';
 import Fun from './component/Fun/Fun';
 import Dolar from './component/Dolar/Dolar'
 import Payday from './component/Payday/Payday'
@@ -36,6 +37,7 @@ class App extends Component {
               <Route path="/ttbl" element={<TTBL/>}/>
               <Route path="/qa" element={<Qa/>}/>
               <Route path="/ad" element={<AdUnits/>}/>
+              <Route path="/naming" element={<Naming/>}/>
               <Route path="/nwsetup" element={<NwSetup/>}/>
               <Route path="/websetup" element={<WebSetup/>}/>
             </Routes>
