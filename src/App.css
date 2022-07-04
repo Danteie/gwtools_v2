@@ -28,6 +28,10 @@ table, th, td {
     width: 100%;
 }
 
+.flex{
+    display: flex;
+}
+
 .file-button-container{
     display: flex;
     gap: 1rem;
