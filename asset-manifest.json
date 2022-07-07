@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/gwtools_v2/static/css/main.3a164a9a.css",
-    "main.js": "/gwtools_v2/static/js/main.57e527aa.js",
+    "main.js": "/gwtools_v2/static/js/main.ebdd91cc.js",
     "static/js/787.56d3bc49.chunk.js": "/gwtools_v2/static/js/787.56d3bc49.chunk.js",
     "static/media/webpos.png": "/gwtools_v2/static/media/webpos.44b4aef478f581cac9c6.png",
-    "static/media/White Papers.docx": "/gwtools_v2/static/media/White Papers.24f5947d62c872e55a09.docx",
+    "static/media/White Papers.docx": "/gwtools_v2/static/media/White Papers.90e98af6c321fa10b426.docx",
     "static/media/Web setup-12.jpg": "/gwtools_v2/static/media/Web setup-12.80bb9d2a8dd19b1c0e94.jpg",
     "static/media/Newsletter Setup-9.jpg": "/gwtools_v2/static/media/Newsletter Setup-9.4a28b0daa809ffb27529.jpg",
     "static/media/Web setup-11.jpg": "/gwtools_v2/static/media/Web setup-11.658d9cc292fb5a4fb619.jpg",
@@ -33,11 +33,11 @@
     "static/media/Web setup-06.jpg": "/gwtools_v2/static/media/Web setup-06.a8f4401ca48e0b527a16.jpg",
     "index.html": "/gwtools_v2/index.html",
     "main.3a164a9a.css.map": "/gwtools_v2/static/css/main.3a164a9a.css.map",
-    "main.57e527aa.js.map": "/gwtools_v2/static/js/main.57e527aa.js.map",
+    "main.ebdd91cc.js.map": "/gwtools_v2/static/js/main.ebdd91cc.js.map",
     "787.56d3bc49.chunk.js.map": "/gwtools_v2/static/js/787.56d3bc49.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3a164a9a.css",
-    "static/js/main.57e527aa.js"
+    "static/js/main.ebdd91cc.js"
   ]
 }
