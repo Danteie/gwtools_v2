@@ -207,6 +207,12 @@ class Naming extends Component{
                         <td>normal 8</td>
                         <td>subchannel=covid-19</td>
                     </tr>
+                    <tr>
+                        <td>Point of care</td>
+                        <td>WPOC</td>
+                        <td>normal 8</td>
+                        <td>subchannel=point-of-care-testing</td>
+                    </tr>
         </table>
             <hr/>
         <table className="web-table ">
