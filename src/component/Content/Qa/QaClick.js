@@ -28,12 +28,12 @@ const QaClick= ({inputReset}) => {
                 </tr>
                 <tr>
                     <td>4</td>
-                    <td>Start date - End date - Start-End time</td>
+                    <td>Start date - Start-End time immediately</td>
                     <td><input type="checkbox" className="input-qa"/></td>
                 </tr>
                 <tr>
                     <td>5</td>
-                    <td>Start date - End date - Start-End time</td>
+                    <td>End date - Start-End time</td>
                     <td><input type="checkbox" className="input-qa"/></td>
                 </tr>
                 <tr>

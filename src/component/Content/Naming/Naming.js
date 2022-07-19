@@ -136,10 +136,34 @@ class Naming extends Component{
                         <td>subchannel=Sequencing</td>
                     </tr>
                     <tr>
+                        <td>Tissue-Based Testing</td>
+                        <td>WTBT</td>
+                        <td>High 8</td>
+                        <td>subchannel=tissue-based-testing</td>
+                    </tr>
+                    <tr className="red">
+                        <td>Clinical Lab Management</td>
+                        <td><b>WCLINL</b></td>
+                        <td>normal 8</td>
+                        <td ><b>channel</b>=clinical-lab-management</td>
+                    </tr>
+                    <tr>
+                        <td>Covid - 19</td>
+                        <td>WCOV</td>
+                        <td>normal 8</td>
+                        <td>subchannel=covid-19</td>
+                    </tr>
+                    <tr>
+                        <td>Point of care</td>
+                        <td>WPOC</td>
+                        <td>normal 8</td>
+                        <td>subchannel=point-of-care-testing</td>
+                    </tr>
+                    <tr className="red">
                         <td>Applied Markets</td>
-                        <td>WAPP</td>
+                        <td><b>WAPP</b></td>
                         <td>High 6</td>
-                        <td className="red">channel=Applied-Markets</td>
+                        <td ><b>channel</b>=Applied-Markets</td>
                     </tr>
                     <tr>
                         <td>Autoimmune Disease</td>
@@ -189,30 +213,7 @@ class Naming extends Component{
                         <td>High 6</td>
                         <td>subchannel=Reproductive-Health</td>
                     </tr>
-                    <tr>
-                        <td>Tissue-Based Testing</td>
-                        <td>WTBT</td>
-                        <td>High 8</td>
-                        <td>subchannel=tissue-based-testing</td>
-                    </tr>
-                    <tr>
-                        <td>Clinical Lab Management</td>
-                        <td>WCLINL</td>
-                        <td>normal 8</td>
-                        <td className="red">channel=clinical-lab-management</td>
-                    </tr>
-                    <tr>
-                        <td>Covid - 19</td>
-                        <td>WCOV</td>
-                        <td>normal 8</td>
-                        <td>subchannel=covid-19</td>
-                    </tr>
-                    <tr>
-                        <td>Point of care</td>
-                        <td>WPOC</td>
-                        <td>normal 8</td>
-                        <td>subchannel=point-of-care-testing</td>
-                    </tr>
+                   
         </table>
             <hr/>
         <table className="web-table ">
