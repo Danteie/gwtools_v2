@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/gwtools_v2/static/css/main.3a164a9a.css",
-    "main.js": "/gwtools_v2/static/js/main.7cfa5f88.js",
+    "main.css": "/gwtools_v2/static/css/main.783008dc.css",
+    "main.js": "/gwtools_v2/static/js/main.e6aa7ecd.js",
     "static/js/787.56d3bc49.chunk.js": "/gwtools_v2/static/js/787.56d3bc49.chunk.js",
     "static/media/webpos.png": "/gwtools_v2/static/media/webpos.44b4aef478f581cac9c6.png",
-    "static/media/White Papers.docx": "/gwtools_v2/static/media/White Papers.1ee311d04c9cc5fb284c.docx",
+    "static/media/White Papers.docx": "/gwtools_v2/static/media/White Papers.eb13391a9757b7b9f996.docx",
+    "static/media/Background-opera-speeddials-community-web-simple-backgrounds-1.jpg": "/gwtools_v2/static/media/Background-opera-speeddials-community-web-simple-backgrounds-1.0946105606cf5d1cf50a.jpg",
     "static/media/Web setup-12.jpg": "/gwtools_v2/static/media/Web setup-12.80bb9d2a8dd19b1c0e94.jpg",
     "static/media/Newsletter Setup-9.jpg": "/gwtools_v2/static/media/Newsletter Setup-9.4a28b0daa809ffb27529.jpg",
     "static/media/Web setup-11.jpg": "/gwtools_v2/static/media/Web setup-11.658d9cc292fb5a4fb619.jpg",
@@ -14,6 +15,7 @@
     "static/media/Newsletter Setup-4.jpg": "/gwtools_v2/static/media/Newsletter Setup-4.410e345d31064e5d8efc.jpg",
     "static/media/Web setup-17.jpg": "/gwtools_v2/static/media/Web setup-17.13ce58aecd647b003be2.jpg",
     "static/media/Newsletter Setup-3.jpg": "/gwtools_v2/static/media/Newsletter Setup-3.cd818faaf0aaedc7f6cb.jpg",
+    "static/media/work.png": "/gwtools_v2/static/media/work.a50397c97658c79b596d.png",
     "static/media/Web setup-04.jpg": "/gwtools_v2/static/media/Web setup-04.494f46988118a8940805.jpg",
     "static/media/Web setup-01.jpg": "/gwtools_v2/static/media/Web setup-01.60f7570cba2dfdaa0268.jpg",
     "static/media/Web setup-13.jpg": "/gwtools_v2/static/media/Web setup-13.259f3b914889e4f67ea1.jpg",
@@ -32,12 +34,12 @@
     "static/media/Web setup-15.jpg": "/gwtools_v2/static/media/Web setup-15.a708a3044ab3d76965e0.jpg",
     "static/media/Web setup-06.jpg": "/gwtools_v2/static/media/Web setup-06.a8f4401ca48e0b527a16.jpg",
     "index.html": "/gwtools_v2/index.html",
-    "main.3a164a9a.css.map": "/gwtools_v2/static/css/main.3a164a9a.css.map",
-    "main.7cfa5f88.js.map": "/gwtools_v2/static/js/main.7cfa5f88.js.map",
+    "main.783008dc.css.map": "/gwtools_v2/static/css/main.783008dc.css.map",
+    "main.e6aa7ecd.js.map": "/gwtools_v2/static/js/main.e6aa7ecd.js.map",
     "787.56d3bc49.chunk.js.map": "/gwtools_v2/static/js/787.56d3bc49.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a164a9a.css",
-    "static/js/main.7cfa5f88.js"
+    "static/css/main.783008dc.css",
+    "static/js/main.e6aa7ecd.js"
   ]
 }
