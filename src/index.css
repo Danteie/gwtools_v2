@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(124, 182, 217);
+  background: url('./Background-opera-speeddials-community-web-simple-backgrounds-1.jpg');
   padding: 1rem;
   color: white;
   height: 100vh;

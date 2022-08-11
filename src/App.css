@@ -4,6 +4,7 @@ table, th, td {
     text-align: start;
 }
 
+
 .reset-qa>*{
     border: none;
 }
@@ -17,7 +18,7 @@ table, th, td {
 }
 
 .title{
-    color: white;
+    color: red;
     text-decoration: none;
     display: flex;
     justify-content: space-between;
@@ -40,7 +41,7 @@ table, th, td {
 
 .file-button{
     width: auto;
-    background: radial-gradient( 100% 100% at 100% 0%, #89E5FF 0%, #5468FF 100% );
+    background-color:black;
     padding: 1rem;
     border-radius: 15px;
     text-decoration: none;
