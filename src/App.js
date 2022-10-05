@@ -13,6 +13,7 @@ import Naming from './component/Content/Naming/Naming';
 import Fun from './component/Fun/Fun';
 import Dolar from './component/Dolar/Dolar'
 import Payday from './component/Payday/Payday'
+import Joke from './component/Joke/Joke'
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 
 class App extends Component {
@@ -46,6 +47,9 @@ class App extends Component {
             <Fun />
             <Payday/>
             <Dolar/>
+          </div>
+          <div>
+            <Joke />
           </div>
         </div>
       </Router>
