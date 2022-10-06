@@ -48,10 +48,9 @@ class App extends Component {
             <Payday/>
             <Dolar/>
           </div>
-          <div>
-            <Joke />
-          </div>
+          <Joke />
         </div>
+        <h3 className='right' target='_blank'>Created by <a href='https://github.com/Danteie'>Aleksandar</a></h3>
       </Router>
     )
   }

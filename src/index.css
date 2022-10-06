@@ -27,3 +27,9 @@ code {
   /* background-color: rgb(45, 49, 66); */
  background-color: #6c757d;
 }
+
+.right{
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+}
