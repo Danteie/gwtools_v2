@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/gwtools_v2/static/css/main.8fcb244e.css",
-    "main.js": "/gwtools_v2/static/js/main.749c1f88.js",
+    "main.css": "/gwtools_v2/static/css/main.ac86c7c4.css",
+    "main.js": "/gwtools_v2/static/js/main.79e2aa6d.js",
     "static/js/787.56d3bc49.chunk.js": "/gwtools_v2/static/js/787.56d3bc49.chunk.js",
     "static/media/webpos.png": "/gwtools_v2/static/media/webpos.44b4aef478f581cac9c6.png",
     "static/media/Background-opera-speeddials-community-web-simple-backgrounds-1.jpg": "/gwtools_v2/static/media/Background-opera-speeddials-community-web-simple-backgrounds-1.0946105606cf5d1cf50a.jpg",
@@ -33,12 +33,12 @@
     "static/media/Web setup-15.jpg": "/gwtools_v2/static/media/Web setup-15.a708a3044ab3d76965e0.jpg",
     "static/media/Web setup-06.jpg": "/gwtools_v2/static/media/Web setup-06.a8f4401ca48e0b527a16.jpg",
     "index.html": "/gwtools_v2/index.html",
-    "main.8fcb244e.css.map": "/gwtools_v2/static/css/main.8fcb244e.css.map",
-    "main.749c1f88.js.map": "/gwtools_v2/static/js/main.749c1f88.js.map",
+    "main.ac86c7c4.css.map": "/gwtools_v2/static/css/main.ac86c7c4.css.map",
+    "main.79e2aa6d.js.map": "/gwtools_v2/static/js/main.79e2aa6d.js.map",
     "787.56d3bc49.chunk.js.map": "/gwtools_v2/static/js/787.56d3bc49.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8fcb244e.css",
-    "static/js/main.749c1f88.js"
+    "static/css/main.ac86c7c4.css",
+    "static/js/main.79e2aa6d.js"
   ]
 }
