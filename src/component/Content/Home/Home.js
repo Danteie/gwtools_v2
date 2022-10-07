@@ -13,7 +13,7 @@ class Home extends Component{
     render(){
         return (
             <div className="ba br4 pa2 ma2 bg-c w-100">
-                <img src={work} className='center'/>
+                <img src={work} className='center' alt="work"/>
             </div> 
         )
               
