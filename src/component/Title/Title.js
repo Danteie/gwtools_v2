@@ -9,10 +9,10 @@ const Title = () => {
             <Link to="/">
                 <div className="logo">
                 <img src={dna} className="flex justify-center title logo-image" alt="logo"/>
-                <h1>TOOL</h1>
+                <h1 className="logoName">TOOL</h1>
                 </div>
             </Link>
-            <h1> DATE : {getCurrentDate('-')}</h1>
+            <h1 className="date-top"> DATE : {getCurrentDate('-')}</h1>
              {/* <div className="file-button-container">
                         <a className="file-button"  rel="noreferrer" href="https://docs.google.com/spreadsheets/d/1Lg1srIdXK_n5XZPyf5ktK2Ev0TUtP1eRHp5cUb9NVcI/edit#gid=1933187957" target="_blank">TASKOVI</a>
                         <a className="file-button"  rel="noreferrer" href="https://docs.google.com/spreadsheets/d/1CJqHUzYR5_1nCxiN58JCM6BuggJ6wWekS-3YnY63BG0/edit#gid=447324662" target="_blank">US BULLETIN SHEET</a>

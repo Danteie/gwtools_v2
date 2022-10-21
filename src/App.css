@@ -67,15 +67,32 @@ table, th, td {
     display: flex;
     align-items: center;
     text-decoration: none;
+    background-color: #212529;
+    border-radius: 15px;
 }
 
 .logo-image{
     width: 100px;
     height: 100px;
-    margin-left: 2rem;
+    margin-left: 1rem;
     transition: transform .7s ease-in-out;
+    
 }
 
 .logo-image:hover{
     transform: rotatey(180deg);
+}
+
+.logoName{
+    padding: 1rem;
+    color: white;
+    text-decoration: none;
+    margin-right: 1rem;
+}
+
+.date-top{
+    background-color: #212529;
+    color: white;
+    padding: 2rem;
+    border-radius: 15px;
 }
