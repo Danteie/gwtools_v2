@@ -127,7 +127,7 @@ class Naming extends Component{
                         <td>Sample Prep</td>
                         <td>WSAMP</td>
                         <td>normal 8</td>
-                        <td>subchannel=Sample-Prep</td>
+                        <td>subchannel=sample-preparation</td>
                     </tr>
                     <tr>
                         <td>Sequencing Technology</td>
