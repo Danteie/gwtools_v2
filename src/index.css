@@ -15,7 +15,6 @@ body {
   background-size: cover;
   padding: 1rem;
   color: #f8f9fa;
-  height: 100vh;
 }
 
 code {
@@ -31,7 +30,7 @@ code {
 .bg-c{
   box-shadow: -10px -8px 0px #495057;
   /* background-color: rgb(45, 49, 66); */
- background-color: #6c757d;
+ background-color: rgba(108, 117, 125, 0.6);
 }
 
 .right{
