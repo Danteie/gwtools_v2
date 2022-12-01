@@ -86,7 +86,7 @@ const GdxoAd= () => {
                         360dx_point_of_care_bulletin_bottom<br/>
                         360dx_point_of_care_bulletin_bottom_2<br/>
                         360dx_point_of_care_bulletin_footer1<br/>
-                        360dx_point_of_care_bulletin__footer2<br/>
+                        360dx_point_of_care_bulletin_footer2<br/>
                         360dx_point_of_care_bulletin_footer3<br/>
                         <h3>Daily News AM</h3>
                         <hr/>

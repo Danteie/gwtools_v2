@@ -117,6 +117,15 @@ const GnwoAd= () => {
                         gw_dsbl_bulletin_footer1_tue<br/>
                         gw_dsbl_bulletin_footer2_tue<br/>
                         gw_dsbl_bulletin_footer3_tue<br/>
+                        <h3>LLBL bulletins</h3>
+                        <hr/>
+                        gw_liquid_biopsy_bulletin_top<br/>
+                        gw_liquid_biopsy_bulletin_center<br/>
+                        gw_liquid_biopsy_bulletin_bottom<br/>
+                        gw_liquid_biopsy_bulletin_bottom_2<br/>
+                        gw_liquid_biopsy_bulletin_footer1<br/>
+                        gw_liquid_biopsy_bulletin_footer2<br/>
+                        gw_liquid_biopsy_bulletin_footer3<br/>
                     </div>
                 )
             case "3":
@@ -125,22 +134,22 @@ const GnwoAd= () => {
                         <h3>PCR</h3>
                         <hr/>
                         gw_pcr_bulletin_top<br/>
-                        gw_pcr_bulletin_middle_mrec_wed<br/>
-                        gw_pcr_bulletin_top_center_wed<br/>
-                        gw_pcr_bulletin_top_bottom_wed<br/>
-                        gw_pcr_bulletin_top_footer1_wed<br/>
-                        gw_pcr_bulletin_top_footer2_wed<br/>
-                        gw_pcr_bulletin_top_footer3_wed<br/>
+                        gw_pcr_bulletin_middle_mrec<br/>
+                        gw_pcr_bulletin_center<br/>
+                        gw_pcr_bulletin_top_bottom<br/>
+                        gw_pcr_bulletin_top_footer1<br/>
+                        gw_pcr_bulletin_top_footer2<br/>
+                        gw_pcr_bulletin_top_footer3<br/>
                         <h3>Informatics</h3>
                         <hr/>
-                        gw_informatics_bulletin_top_wed<br/>
-                        gw_informatics_bulletin_middle_mrec_wed<br/>
-                        gw_informatics_bulletin_center_wed<br/>
-                        gw_informatics_bulletin_bottom_wed<br/>
-                        gw_informatics_bulletin_bottom_2_wed<br/>
-                        gw_informatics_bulletin_footer1_wed<br/>
-                        gw_informatics_bulletin_footer2_wed<br/>
-                        gw_informatics_bulletin_footer3_wed<br/>
+                        gw_informatics_bulletin_top<br/>
+                        gw_informatics_bulletin_middle_mrec<br/>
+                        gw_informatics_bulletin_center<br/>
+                        gw_informatics_bulletin_bottom<br/>
+                        gw_informatics_bulletin_bottom_2<br/>
+                        gw_informatics_bulletin_footer1<br/>
+                        gw_informatics_bulletin_footer2<br/>
+                        gw_informatics_bulletin_footer3<br/>
                         <h3>Daily News AM</h3>
                         <hr/>
                         gw_dnam_bulletin_top_wed<br/>
@@ -153,7 +162,7 @@ const GnwoAd= () => {
                         gw_dnam_bulletin_footer3_wed<br/>
                         <h3>Daily News PM</h3>
                         <hr/>
-                        gw_dnpm_bulletin_top_tue<br/>
+                        gw_dnpm_bulletin_top_wed<br/>
                         gw_dnpm_bulletin_middle_mrec_wed<br/>
                         gw_dnpm_bulletin_center_wed<br/>
                         gw_dnpm_bulletin_bottom_wed<br/>
