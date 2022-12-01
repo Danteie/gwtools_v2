@@ -136,10 +136,10 @@ const GnwoAd= () => {
                         gw_pcr_bulletin_top<br/>
                         gw_pcr_bulletin_middle_mrec<br/>
                         gw_pcr_bulletin_center<br/>
-                        gw_pcr_bulletin_top_bottom<br/>
-                        gw_pcr_bulletin_top_footer1<br/>
-                        gw_pcr_bulletin_top_footer2<br/>
-                        gw_pcr_bulletin_top_footer3<br/>
+                        gw_pcr_bulletin_bottom<br/>
+                        gw_pcr_bulletin_footer1<br/>
+                        gw_pcr_bulletin_footer2<br/>
+                        gw_pcr_bulletin_footer3<br/>
                         <h3>Informatics</h3>
                         <hr/>
                         gw_informatics_bulletin_top<br/>
