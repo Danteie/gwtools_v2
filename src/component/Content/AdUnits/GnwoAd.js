@@ -137,6 +137,7 @@ const GnwoAd= () => {
                         gw_pcr_bulletin_middle_mrec<br/>
                         gw_pcr_bulletin_center<br/>
                         gw_pcr_bulletin_bottom<br/>
+                        gw_pcr_bulletin_bottom_2<br/>
                         gw_pcr_bulletin_footer1<br/>
                         gw_pcr_bulletin_footer2<br/>
                         gw_pcr_bulletin_footer3<br/>
