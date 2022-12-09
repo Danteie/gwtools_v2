@@ -1,18 +1,23 @@
 import React from "react";
 import './Menu.css'
 import {Link} from 'react-router-dom'
+import Button from '@mui/material/Button';
+import Stack from '@mui/material/Stack'
 
 const Menu = () => {
 
     return(
         <menu className="flex flex-column ba br4 pa2 ma2 bg-c">
-            <Link to="/webinar"><button  variant="text" id='webinar'>WEBINAR</button></Link>
-            <Link to="/ttbl"><button  id='ttbl'>TTBL</button></Link>
-            <Link to="/qa"><button  id='qa'>Qa</button></Link>
-            <Link to="/ad"><button  id='ad'>AD UNITS</button></Link>
-            <Link to="/naming"><button  id='naiming'>Naming Conventions</button></Link>
-            <Link to="/nwsetup"><button  id='ad'>Newsletter Setup</button></Link>
-            <Link to="/websetup"><button  id='ad'>Web Setup</button></Link>
+        
+           <Stack spacing={1}>
+            <Link to="/webinar"><Button  variant="contained" id='webinar'>WEBINAR</Button></Link>
+            <Link to="/ttbl"><Button variant="contained" id='ttbl'>TTBL</Button></Link>
+            <Link to="/qa"><Button variant="contained" id='qa'>Qa</Button></Link>
+            <Link to="/ad"><Button variant="contained" id='ad'>AD UNITS</Button></Link>
+            <Link to="/naming"><Button  variant="contained" id='naiming'>Naming Conventions</Button></Link>
+            <Link to="/nwsetup"><Button  variant="contained" id='ad'>Newsletter Setup</Button></Link>
+            <Link to="/websetup"><Button  variant="contained" id='ad'>Web Setup</Button></Link>
+            </Stack>
         </menu>
     )
 }
