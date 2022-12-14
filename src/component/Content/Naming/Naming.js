@@ -97,7 +97,7 @@ class Naming extends Component{
                         <td>Mass Spec</td>
                         <td>WMASS</td>
                         <td>normal 8</td>
-                        <td>subchannel=Mass-Spec</td>
+                        <td>subchannel=mass-spectrometry</td>
                     </tr>
                     <tr>
                         <td>Metablolic Disease</td>
