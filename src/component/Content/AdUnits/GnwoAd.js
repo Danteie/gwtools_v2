@@ -18,6 +18,7 @@ const GnwoAd= () => {
                         gw_weekly_roundup_bulletin_footer3<br/>
                         <h3>Cancer</h3>
                         <hr/>
+                        gw_cancer_bulletin_top_mon<br/>
                         gw_cancer_bulletin_middle_mrec_mon<br/>
                         gw_cancer_bulletin_center_mon<br/>
                         gw_cancer_bulletin_bottom_mon<br/>
@@ -27,6 +28,7 @@ const GnwoAd= () => {
                         gw_cancer_bulletin_footer3_mon<br/>
                         <h3>Molecular Diagnostics</h3>
                         <hr/>
+                        gw_molecular_diagnostics_bulletin_top_mon<br/>
                         gw_molecular_diagnostics_bulletin_middle_mrec_mon<br/>
                         gw_molecular_diagnostics_bulletin_center_mon<br/>
                         gw_molecular_diagnostics_bulletin_bottom_mon<br/>
@@ -81,6 +83,7 @@ const GnwoAd= () => {
                         gw_sequencing_bulletin_footer3_tue<br/>
                         <h3>Proteomics/Protein Research</h3>
                         <hr/>
+                        gw_proteomics_bulletin_top<br/>
                         gw_proteomics_bulletin_middle_mrec<br/>
                         gw_proteomics_bulletin_center<br/>
                         gw_proteomics_bulletin_bottom<br/>
@@ -186,6 +189,7 @@ const GnwoAd= () => {
                 return <div>
                         <h3>Sequencing</h3>
                         <hr/>
+                        gw_cancer_bulletin_top_thu<br/>
                         gw_cancer_bulletin_middle_mrec_thu<br/>
                         gw_cancer_bulletin_center_thu<br/>
                         gw_cancer_bulletin_bottom_thu<br/>
@@ -195,6 +199,7 @@ const GnwoAd= () => {
                         gw_cancer_bulletin_footer3_thu<br/>
                         <h3>Proteomics/Protein Research</h3>
                         <hr/>
+                        gw_molecular_diagnostics_bulletin_top_thu<br/>
                         gw_molecular_diagnostics_bulletin_middle_mrec_thu<br/>
                         gw_molecular_diagnostics_bulletin_center_thu<br/>
                         gw_molecular_diagnostics_bulletin_bottom_thu<br/>
@@ -214,6 +219,7 @@ const GnwoAd= () => {
                         gw_dnam_bulletin_footer3_thu<br/>
                         <h3>Daily News PM</h3>
                         <hr/>
+                        gw_dnpm_bulletin_top_thu<br/>
                         gw_dnpm_bulletin_middle_mrec_thu<br/>
                         gw_dnpm_bulletin_center_thu<br/>
                         gw_dnpm_bulletin_bottom_thu<br/>
@@ -241,6 +247,7 @@ const GnwoAd= () => {
                         gw_europe_bulletin_footer3<br/>
                         <h3>Sequencing</h3>
                         <hr/>
+                        gw_sequencing_bulletin_top_fri<br/>
                         gw_sequencing_bulletin_middle_mrec_fri<br/>
                         gw_sequencing_bulletin_center_fri<br/>
                         gw_sequencing_bulletin_bottom_fri<br/>

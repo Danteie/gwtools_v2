@@ -10,6 +10,7 @@ const GpoAd= () => {
                 return <div>
                         <h3>Daily News</h3>
                         <hr/>
+                        pon_dnam_bulletin_top_mon<br/>
                         pon_dnam_bulletin_middle_mrec_mon<br/>
                         pon_dnam_bulletin_center_mon<br/>
                         pon_dnam_bulletin_bottom_mon<br/>
@@ -22,6 +23,7 @@ const GpoAd= () => {
                 return <div>
                         <h3>Daily News</h3>
                         <hr/>
+                        pon_dnam_bulletin_toptue<br/>
                         pon_dnam_bulletin_middle_mrec_tue<br/>
                         pon_dnam_bulletin_center_tue<br/>
                         pon_dnam_bulletin_bottom_tue<br/>
@@ -34,6 +36,7 @@ const GpoAd= () => {
                 return <div>
                         <h3>Daily News</h3>
                         <hr/>
+                        pon_dnam_bulletin_top_wed<br/>
                         pon_dnam_bulletin_middle_mrec_wed<br/>
                         pon_dnam_bulletin_center_wed<br/>
                         pon_dnam_bulletin_bottom_wed<br/>
@@ -46,6 +49,7 @@ const GpoAd= () => {
                 return <div>
                        <h3>Daily News</h3>
                         <hr/>
+                        pon_dnam_bulletin_top_thu<br/>
                         pon_dnam_bulletin_middle_mrec_thu<br/>
                         pon_dnam_bulletin_center_thu<br/>
                         pon_dnam_bulletin_bottom_thu<br/>
@@ -58,6 +62,7 @@ const GpoAd= () => {
                 return <div>
                         <h3>Daily News</h3>
                         <hr/>
+                        pon_dnam_bulletin_top_fri<br/>
                         pon_dnam_bulletin_middle_mrec_fri<br/>
                         pon_dnam_bulletin_center_fri<br/>
                         pon_dnam_bulletin_bottom_fri<br/>

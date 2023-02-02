@@ -10,6 +10,7 @@ const GdxoEuAd= () => {
                 return <div>
                         <h3>Daily News AM</h3>
                         <hr/>
+                        360dx_dnam_bulletin_top_mon_eu<br/>
                         360dx_dnam_bulletin_middle_mrec_mon_eu<br/>
                         360dx_dnam_bulletin_center_mon_eu<br/>
                         360dx_dnam_bulletin_bottom_mon_eu<br/>
@@ -21,7 +22,8 @@ const GdxoEuAd= () => {
             case "2":
                 return <div>
                         <h3>Daily News AM</h3>
-                        <hr/>                 
+                        <hr/>
+                        360dx_dnam_bulletin_top_tue_eu<br/>                
                         360dx_dnam_bulletin_middle_mrec_tue_eu<br/>
                         360dx_dnam_bulletin_center_tue_eu<br/>
                         360dx_dnam_bulletin_bottom_tue_eu<br/>
@@ -34,6 +36,7 @@ const GdxoEuAd= () => {
                 return <div>
                         <h3>Daily News AM</h3>
                         <hr/>
+                        360dx_dnam_bulletin_top_wed_eu<br/>
                         360dx_dnam_bulletin_middle_mrec_wed_eu<br/>
                         360dx_dnam_bulletin_center_wed_eu<br/>
                         360dx_dnam_bulletin_bottom_wed_eu<br/>
@@ -46,6 +49,7 @@ const GdxoEuAd= () => {
                 return <div>
                         <h3>Daily News AM</h3>
                         <hr/>
+                        360dx_dnam_bulletin_top_thu_eu<br/>
                         360dx_dnam_bulletin_middle_mrec_thu_eu<br/>
                         360dx_dnam_bulletin_center_thu_eu<br/>
                         360dx_dnam_bulletin_bottom_thu_eu<br/>
@@ -58,6 +62,7 @@ const GdxoEuAd= () => {
                 return <div>
                         <h3>Daily News AM</h3>
                         <hr/>
+                        360dx_dnam_bulletin_top_fri_eu<br/>
                         360dx_dnam_bulletin_center_fri_eu<br/>
                         360dx_dnam_bulletin_bottom_fri_eu<br/>
                         360dx_dnam_bulletin_bottom_2_fri_eu<br/>

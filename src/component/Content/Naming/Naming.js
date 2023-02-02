@@ -73,7 +73,7 @@ class Naming extends Component{
                         <td>Gene Silencing / Gene Editing</td>
                         <td>WRNAI</td>
                         <td>normal 8</td>
-                        <td>subchannel=Gene-Silencing-Gene-Editing</td>
+                        <td>subchannel=gene-editing-gene-silencing-crispr</td>
                     </tr>
                     <tr>
                         <td>Genetic Research</td>

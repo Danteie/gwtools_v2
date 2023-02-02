@@ -123,6 +123,7 @@ const GnwoEuAd= () => {
                         gw_dnam_bulletin_footer3_thu_eu<br/>
                         <h3>Daily News PM</h3>
                         <hr/>
+                        gw_dnpm_bulletin_top_thu_eu<br/>
                         gw_dnpm_bulletin_middle_mrec_thu_eu<br/>
                         gw_dnpm_bulletin_center_thu_eu<br/>
                         gw_dnpm_bulletin_bottom_thu_eu<br/>
