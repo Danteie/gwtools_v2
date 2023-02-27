@@ -1,6 +1,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
 
+*{
+  text-decoration: none;
+}
 
 body {
   margin: 0;
