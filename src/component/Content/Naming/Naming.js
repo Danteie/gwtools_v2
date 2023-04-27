@@ -14,6 +14,8 @@ class Naming extends Component{
         return (
             <div className="ba br4 pa2 ma2 bg-c w-100">
                 <h1 className="red center">Naming za Web Kampanje</h1>
+                <br/>
+                <h1 className="center">Genomeweb</h1>
                 <table className="web-table">
                     <tr className="web-table-title">
                         <td>Channel</td>
