@@ -215,6 +215,34 @@ class Naming extends Component{
                     </tr>
                    
         </table>
+                   
+            <br/>
+            <br/>
+            <h1 className="center">Precision Medicine Online</h1>
+        <table className="web-table">
+
+                    <tr className="web-table-title">
+                        <td>Channel</td>
+                        <td>ChannelAbbv.</td>
+                        <td>Priority in GAM</td>
+                        <td>Targeting-Key value in GAM</td>
+                    </tr>
+                    <tr>
+                        <td>Basic</td>
+                        <td>WBASE</td>
+                        <td>low 10</td>
+                        <td>www.precisionmedicineonline.com</td>
+                    </tr>
+                    <tr>
+                        <td>Precision Oncology</td>
+                        <td>WPON</td>
+                        <td>normal 8</td>
+                        <td>subchannel=precision-oncology </td>
+                    </tr>
+        </table>
+
+        <br/>
+        <br/>
             <hr/>
         <table className="web-table ">
 	<tr>
