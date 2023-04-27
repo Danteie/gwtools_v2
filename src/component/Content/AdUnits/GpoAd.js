@@ -31,6 +31,18 @@ const GpoAd= () => {
                         pon_dnam_bulletin_footer1_tue<br/>
                         pon_dnam_bulletin_footer2_tue<br/>
                         pon_dnam_bulletin_footer3_tue<br/>
+                        <h3>Precision Oncology</h3>
+                        <hr/>
+                        pon_precision_oncology_bulletin_top_tue<br/>
+                        pon_precision_oncology_bulletin_middle_mrec_tue<br/>
+                        pon_precision_oncology_bulletin_center_tue<br/>
+                        pon_precision_oncology_bulletin_bottom_tue<br/>
+                        pon_precision_oncology_bulletin_bottom2_tue<br/>
+                        pon_precision_oncology_bulletin_footer1_tue<br/>
+                        pon_precision_oncology_bulletin_footer2_tue<br/>
+                        pon_precision_oncology_bulletin_footer3_tue<br/>
+                        <br/>
+                        <br/>
                     </div>
             case "3":
                 return <div>
@@ -57,6 +69,18 @@ const GpoAd= () => {
                         pon_dnam_bulletin_footer1_thu<br/>
                         pon_dnam_bulletin_footer2_thu<br/>
                         pon_dnam_bulletin_footer3_thu<br/>
+                        <h3>Precision Oncology</h3>
+                        <hr/>
+                        pon_precision_oncology_bulletin_top_thu<br/>
+                        pon_precision_oncology_bulletin_middle_mrec_thu<br/>
+                        pon_precision_oncology_bulletin_center_thu<br/>
+                        pon_precision_oncology_bulletin_bottom_thu<br/>
+                        pon_precision_oncology_bulletin_bottom2_thu<br/>
+                        pon_precision_oncology_bulletin_footer1_thu<br/>
+                        pon_precision_oncology_bulletin_footer2_thu<br/>
+                        pon_precision_oncology_bulletin_footer3_thu<br/>
+                        <br/>
+                        <br/>
                     </div>;
             case "5":
                 return <div>
