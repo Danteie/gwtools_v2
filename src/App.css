@@ -1,9 +1,21 @@
+.App{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 1rem;
+}
+
+
 table, th, td {
     border:1px solid black;
     font-size: 2rem;
     text-align: start;
+   
 }
 
+.new{
+    min-height: 75vh;
+}
 
 .reset-qa>*{
     border: none;
@@ -72,9 +84,8 @@ table, th, td {
 }
 
 .logo-image{
-    width: 100px;
-    height: 100px;
-    margin-left: 1rem;
+    width: 35px;
+    height: 35px;
     transition: transform .7s ease-in-out;
     
 }
@@ -84,7 +95,6 @@ table, th, td {
 }
 
 .logoName{
-    padding: 1rem;
     color: white;
     text-decoration: none;
     margin-right: 1rem;
@@ -95,4 +105,15 @@ table, th, td {
     color: white;
     padding: 2rem;
     border-radius: 15px;
+}
+
+.site{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    height: 100%;
+}
+
+.content{
+    height: 80vh;
 }

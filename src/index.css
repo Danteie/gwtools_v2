@@ -14,7 +14,7 @@ body {
   font-family: 'Cabin', sans-serif; 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: url('./Background-opera-speeddials-community-web-simple-backgrounds-1.jpg');
+background-color: rgb(207, 206, 206);
   background-size: cover;
   padding: 1rem;
   color: #f8f9fa;

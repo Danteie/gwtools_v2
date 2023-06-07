@@ -12,8 +12,7 @@ class Naming extends Component{
 
     render(){
         return (
-            <div className="ba br4 pa2 ma2 bg-c">
-                <h1 className="red center">Targeting za WEB kampanje</h1>
+            <div className="new">
                 <br/>
                 <h1 className="center">Genomeweb</h1>
                 <table className="web-table">

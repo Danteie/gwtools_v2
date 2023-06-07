@@ -1,5 +1,8 @@
 import React, { Component } from "react";
 import work from './work.png'
+import './Home.css'
+import Fun from "../../Fun/Fun";
+import Payday from '../../Payday/Payday'
 
 
 class Home extends Component{
@@ -12,8 +15,12 @@ class Home extends Component{
 
     render(){
         return (
-            <div className="ba br4 pa2 ma2 bg-c">
+            <div className="home h-100">
                 <img src={work} className='center' alt="work"/>
+        <div className='flex w-100'>
+            <Fun />
+            <Payday/>
+        </div>
             </div> 
         )
               

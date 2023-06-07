@@ -19,7 +19,7 @@ class NwSetup extends Component{
 
     render(){
         return (
-            <div className="ba br4 pa2 ma2 bg-c">
+            <div>
                 <img src={img1} alt="slika1"></img>
                 <img src={img2} alt="slika1"></img>
                 <img src={img3} alt="slika1"></img>

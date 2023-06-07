@@ -28,7 +28,7 @@ export default function AdUnits() {
     }
 
     return (
-        <div className="ba br4 pa2 ma2 bg-c">
+        <div className="new">
         <div>
             <label>Izaberite Site </label>
             <select 

@@ -28,7 +28,7 @@ export default function Qa() {
     }
 
     return (
-        <div className="ba br4 pa2 ma2 bg-c w-100">
+        <div>
         <div>
             <label>Izaberite Qa </label>
             <select 

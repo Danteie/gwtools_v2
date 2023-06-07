@@ -28,7 +28,7 @@ class WebSetup extends Component{
 
     render(){
         return (
-            <div className="ba br4 pa2 ma2 bg-c w-100">
+            <div>
                 <img src={img1} alt="slika1"></img>
                 <img src={img2} alt="slika1"></img>
                 <img src={img3} alt="slika1"></img>

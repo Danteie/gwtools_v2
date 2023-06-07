@@ -24,7 +24,7 @@ class TTBLLinija extends Component{
 
     render(){
         return (
-            <div className="ba br4 pa2 ma2 bg-c">
+            <div>
                 <h1 className="center">TTBL</h1>
                 <div className="w-100 center">
                     <select id='site-option'>
