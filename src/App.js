@@ -30,7 +30,6 @@ class App extends Component {
         <div className='App'>
           <Title />
           <hr/>
-          <div className='flex'>
             <Menu/>
             <Routes>
               <Route path="/" element={<Home/>}/>
@@ -42,7 +41,6 @@ class App extends Component {
               <Route path="/nwsetup" element={<NwSetup/>}/>
               <Route path="/websetup" element={<WebSetup/>}/>
             </Routes>
-          </div>
           <div className='flex'>
             <Fun />
             <Payday/>

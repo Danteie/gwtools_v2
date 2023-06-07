@@ -7,9 +7,8 @@ import Stack from '@mui/material/Stack'
 const Menu = () => {
 
     return(
-        <menu className="flex flex-column ba br4 pa2 ma2 bg-c">
-        
-           <Stack spacing={1}>
+        <menu className="ba br4 pa2 ma2 bg-c">     
+           <Stack spacing={1} direction="row">
             <Link to="/webinar"><Button  variant="contained" id='webinar'>WEBINAR</Button></Link>
             <Link to="/ttbl"><Button variant="contained" id='ttbl'>TTBL</Button></Link>
             <Link to="/qa"><Button variant="contained" id='qa'>Qa</Button></Link>

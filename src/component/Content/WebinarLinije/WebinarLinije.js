@@ -59,7 +59,7 @@ class WebinarLinije extends Component{
 
     render(){
         return (
-            <div className="ba br4 pa2 ma2 bg-c w-100">
+            <div className="ba br4 pa2 ma2 bg-c">
                 <h1 className="center">WEBINAR</h1>
                 <div className="w-100 center">
                     <select id='site-option'>
