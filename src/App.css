@@ -117,3 +117,7 @@ table, th, td {
 .content{
     height: 80vh;
 }
+
+h1, h2, p{
+    color: white;
+}

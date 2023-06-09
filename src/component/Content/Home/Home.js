@@ -3,6 +3,7 @@ import work from './work.png'
 import './Home.css'
 import Fun from "../../Fun/Fun";
 import Payday from '../../Payday/Payday'
+import { Paper } from "@mui/material";
 
 
 class Home extends Component{
@@ -15,13 +16,15 @@ class Home extends Component{
 
     render(){
         return (
-            <div className="home h-100">
-                <img src={work} className='center' alt="work"/>
-        <div className='flex w-100'>
-            <Fun />
-            <Payday/>
-        </div>
-            </div> 
+        <Paper className="home h-100 w-100" style={{backgroundColor:'black'}}>
+            <div className="center-content">
+                 <img src={work} className='center' alt="work"/>
+            </div>
+            <Paper className='flex w-100' style={{backgroundColor:'black'}}>
+                <Fun />
+                <Payday/>
+            </Paper>
+        </Paper> 
         )
               
     }

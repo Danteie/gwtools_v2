@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import './Naming.css'
 import image from './webpos.png'
+import { Paper } from "@mui/material";
 
 class Naming extends Component{
     constructor(props) {

@@ -3,13 +3,14 @@ import './Menu.css'
 import {Link} from 'react-router-dom'
 import Button from '@mui/material/Button';
 import Stack from '@mui/material/Stack'
+import { AppBar } from "@mui/material";
 import dna from '../Title/DNA.png'
 import {getCurrentDate} from '../../component/Utils/Date'
 
 const Menu = () => {
 
     return(
-        <menu className="ba br4 pa3 ma2 bg-c">     
+        <AppBar position="static" style={{backgroundColor:'black'}} className="ba br4 pa3 bg-c">     
            <Stack spacing={1} direction="row">
            <Link to="/"><Button  variant="contained" style={{backgroundColor:'black'}} classNAme='logo' id='webinar'> <img src={dna} className="logo-image" alt="logo"/> Home</Button></Link>
             <Link to="/webinar"><Button  variant="contained" id='webinar'>WEBINAR</Button></Link>
@@ -20,7 +21,7 @@ const Menu = () => {
             <Link to="/nwsetup"><Button  variant="contained" id='ad'>Newsletter Setup</Button></Link>
             <Link to="/websetup"><Button  variant="contained" id='ad'>Web Setup</Button></Link>
             </Stack>
-        </menu>
+        </AppBar>
     )
 }
 
