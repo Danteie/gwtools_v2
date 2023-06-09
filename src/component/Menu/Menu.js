@@ -10,7 +10,7 @@ import {getCurrentDate} from '../../component/Utils/Date'
 const Menu = () => {
 
     return(
-        <AppBar position="static" style={{backgroundColor:'black'}} className="ba br4 pa3 bg-c">     
+        <AppBar position="static" style={{backgroundColor:'#121212'}} className="pa3">     
            <Stack spacing={1} direction="row">
            <Link to="/"><Button  variant="contained" style={{backgroundColor:'black'}} classNAme='logo' id='webinar'> <img src={dna} className="logo-image" alt="logo"/> Home</Button></Link>
             <Link to="/webinar"><Button  variant="contained" id='webinar'>WEBINAR</Button></Link>

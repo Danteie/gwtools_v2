@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import {getCurrentDate} from '../../Utils/Date'
-import { Paper } from "@mui/material";
+import { Paper, TextField} from "@mui/material";
+
 
 class WebinarLinije extends Component{
     constructor(props) {
@@ -83,11 +84,15 @@ class WebinarLinije extends Component{
                 <button type="sumbit" className="w-30 flex items-center center ma2" onClick={this.generate}>GENERISI</button>
                 <h1 className="center">Order</h1>
                 <p className="center f3" id="order-name">site_advertiser_camp name</p>
+               
                 <div id='lines-div'>
                     <h1 className="center">Linije</h1>
                     <p className="center f3" id="lines">site_adv_camp_product_position_date</p>
+                    
                 </div>
+                
             </Paper>
+            
         )    
     }
 }

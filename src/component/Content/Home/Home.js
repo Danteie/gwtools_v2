@@ -16,11 +16,11 @@ class Home extends Component{
 
     render(){
         return (
-        <Paper className="home h-100 w-100" style={{backgroundColor:'black'}}>
+        <Paper className="home h-100 w-100" style={{backgroundColor:'#121212'}} >
             <div className="center-content">
                  <img src={work} className='center' alt="work"/>
             </div>
-            <Paper className='flex w-100' style={{backgroundColor:'black'}}>
+            <Paper className='flex w-100' style={{backgroundColor:'rgba(255, 255, 255, 0.12)'}}>
                 <Fun />
                 <Payday/>
             </Paper>
