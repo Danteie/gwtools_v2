@@ -14,9 +14,26 @@ class Home extends Component{
         };
       }
 
+    fun  
+
     render(){
+
+        function testLocal(e) {
+            localStorage.setItem('Ime' ,e.target.value)
+            console.log(e.target.value);
+        }
+
+        function getStorageName(){
+            const lsg = localStorage.getItem('Ime');
+           if (lsg) {
+                return 
+           }
+        }
+
         return (
         <Paper className="home h-100 w-100" style={{backgroundColor:'#121212'}} >
+            <input onChange={testLocal}/>
+            <button onClick={getStorageName}/>
             <div className="center-content">
                  <img src={work} className='center' alt="work"/>
             </div>

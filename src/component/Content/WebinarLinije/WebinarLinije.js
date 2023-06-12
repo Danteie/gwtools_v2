@@ -61,7 +61,7 @@ class WebinarLinije extends Component{
 
     render(){
         return (
-            <Paper elevation={1} style={{backgroundColor:'black'}} className="ba br4 pa3 ma2">
+            <Paper elevation={1} style={{backgroundColor:'black'}} className="pa5">
                 <h1 className="center">WEBINAR</h1>
                 <div className="w-100 center">
                     <select id='site-option'>

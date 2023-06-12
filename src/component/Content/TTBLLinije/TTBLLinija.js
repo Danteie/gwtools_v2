@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Paper } from "@mui/material";
 
 class TTBLLinija extends Component{
     constructor(props) {
@@ -24,7 +25,7 @@ class TTBLLinija extends Component{
 
     render(){
         return (
-            <div>
+            <Paper elevation={1} style={{backgroundColor:'black'}} className="pa5">
                 <h1 className="center">TTBL</h1>
                 <div className="w-100 center">
                     <select id='site-option'>
@@ -42,7 +43,7 @@ class TTBLLinija extends Component{
                     <h1 className="center">Linije</h1>
                     <p className="center f3" id="lines">site_adv_camp_product_position_date</p>
                 </div>
-            </div>
+            </Paper>
         )
     }
 }
