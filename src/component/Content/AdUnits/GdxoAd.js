@@ -138,6 +138,7 @@ const GdxoAd= () => {
                         <h3>Daily News AM</h3>
                         <hr/>
                         360dx_dnam_bulletin_top_fri<br/>
+                        360dx_dnam_bulletin_middle_mrec_fri<br/>
                         360dx_dnam_bulletin_center_fri<br/>
                         360dx_dnam_bulletin_bottom_fri<br/>
                         360dx_dnam_bulletin_bottom_2_fri<br/>
@@ -145,6 +146,17 @@ const GdxoAd= () => {
                         360dx_dnam_bulletin_footer2_fri<br/>
                         360dx_dnam_bulletin_footer3_fri<br/>
                        </div>;
+                case "6":
+                    return <div>
+                        <h3>Corona</h3>
+                        <hr/>
+                        360dx_covid19_bulletin_center<br/>
+                        360dx_covid19_bulletin_bottom<br/>
+                        360dx_covid19_bulletin_bottom_2<br/>
+                        360dx_covid19_bulletin_footer1<br/>
+                        360dx_covid19_bulletin_footer2<br/>
+                        360dx_covid19_bulletin_footer3<br/>
+                        </div>;
             default:
                 return null;
         }
@@ -165,6 +177,7 @@ const GdxoAd= () => {
                 <option value="3">Wednesday</option>
                 <option value="4">Thursday</option>
                 <option value="5">Friday</option>
+                <option value="6">Saturday</option>
             </select>
         </div>
         <div className="flex">

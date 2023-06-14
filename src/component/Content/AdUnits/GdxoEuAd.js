@@ -63,6 +63,7 @@ const GdxoEuAd= () => {
                         <h3>Daily News AM</h3>
                         <hr/>
                         360dx_dnam_bulletin_top_fri_eu<br/>
+                        360dx_dnam_bulletin_middle_mrec_fri_eu<br/>
                         360dx_dnam_bulletin_center_fri_eu<br/>
                         360dx_dnam_bulletin_bottom_fri_eu<br/>
                         360dx_dnam_bulletin_bottom_2_fri_eu<br/>
