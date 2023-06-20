@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { MenuItem, Paper,Select,FormControl,FormHelperText} from "@mui/material";
 import Gnwo from './GnwoAd'
 import Gdxo from './GdxoAd'
 import Gpo from './GpoAd'
@@ -8,9 +9,10 @@ import GdxoEu from './GdxoEuAd'
 
 export default function AdUnits() {
 
-    const [qa, setAd] = useState(null);
+    const [qa, setAd] = useState(1);
 
     function getQaDiv(){
+        console.log(qa);
         switch(qa){
             case "1":
                 return <div><Gnwo/></div>;
@@ -28,27 +30,28 @@ export default function AdUnits() {
     }
 
     return (
-        <div className="new">
-        <div>
-            <label>Izaberite Site </label>
-            <select 
-            onClick={(event) => {
-                // here set target value to state which is 1, 2, 3
-                setAd(event.target.value);
-            }}>
-                <option defaultValue></option>
-                <option value="1">GNWO</option>
-                <option value="2">GDXO</option>
-                <option value="3">GPO</option>
-                <option value="4">GNWO EU</option>
-                <option value="5">GDXO EU</option>
-            </select>
-        </div>
-        <div className="flex">
-            {getQaDiv()}
-        </div>
-            
-        </div>
+        <Paper className="pa4 h-100 w-100 new" style={{backgroundColor:'#121212',color:"white"}} >
+         <div className="flex center">
+                <FormControl sx={{ m: 4, width: 300 }}>
+                    <Select  style={{backgroundColor:'white'}}
+                    onChange={(event) => {
+                        // here set target value to state which is 1, 2, 3
+                        setAd(event.target.value);
+                    }}>
+                        <MenuItem value=""></MenuItem>
+                        <MenuItem value='1'>GNWO</MenuItem>
+                        <MenuItem value="2">GDXO</MenuItem>
+                        <MenuItem value="3">GPO</MenuItem>
+                        <MenuItem value="4">GNWO EU</MenuItem>
+                        <MenuItem value="5">GDXO EU</MenuItem>
+                    </Select>
+                    <FormHelperText style={{color:'white'}}>Izaberite Site</FormHelperText>
+                </FormControl>
+            <div className="flex">
+                {getQaDiv()}
+            </div>
+        </div>   
+        </Paper>
     )
 }
 
