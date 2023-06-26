@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { MenuItem,Select,FormControl,FormHelperText} from "@mui/material";
 
 const GdxoAd= () => {
 
@@ -7,7 +8,7 @@ const GdxoAd= () => {
     function getGdxoDiv(){
         switch(qa){
             case "1":
-                return <div>
+                return <div className="adunite">
                         <h3>Premium Weekly</h3>
                         <hr/>
                         360dx_premium_weekly_bulletin_top<br/>
@@ -152,22 +153,22 @@ const GdxoAd= () => {
 
     return (
         <div>
-        <div>
-            <label>Izaberite Dan  </label>
-            <select 
-            onClick={(event) => {
+        <FormControl sx={{ m: 4, width: 300 }}>
+            <Select style={{backgroundColor:'white'}}
+            onChange={(event) => {
                 // here set target value to state which is 1, 2, 3
                 setGx(event.target.value);
             }}>
-                <option defaultValue></option>
-                <option value="1">Monday</option>
-                <option value="2">Tuesday</option>
-                <option value="3">Wednesday</option>
-                <option value="4">Thursday</option>
-                <option value="5">Friday</option>
-            </select>
-        </div>
-        <div className="flex">
+                <MenuItem defaultValue></MenuItem>
+                <MenuItem value="1">Monday</MenuItem>
+                <MenuItem value="2">Tuesday</MenuItem>
+                <MenuItem value="3">Wednesday</MenuItem>
+                <MenuItem value="4">Thursday</MenuItem>
+                <MenuItem value="5">Friday</MenuItem>
+            </Select >
+            <FormHelperText style={{color:'white'}}>Izaberite Dan</FormHelperText>
+            </FormControl>
+        <div className="offset">
             {getGdxoDiv()}
         </div>
             

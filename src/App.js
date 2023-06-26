@@ -37,8 +37,6 @@ class App extends Component {
               <Route path="/websetup" element={<WebSetup/>}/>
             </Routes>
           </div>
-  
-          
         </div>
        
       </Router>

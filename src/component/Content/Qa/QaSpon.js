@@ -1,4 +1,5 @@
 import React from "react";
+import { Button } from "@mui/material";
 
 const QaSpon = ({inputReset}) => {
     return(
@@ -69,7 +70,7 @@ const QaSpon = ({inputReset}) => {
             <tr className="reset-qa">
                     <td></td>
                     <td></td>
-                    <td><button onClick={inputReset}>reset</button></td>
+                    <td className="ma2 center"><Button variant="contained" onClick={inputReset}>reset</Button></td>
                 </tr>
             </tbody>
         </table>
