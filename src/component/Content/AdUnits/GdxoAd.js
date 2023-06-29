@@ -158,7 +158,6 @@ const GdxoAd= () => {
                             360dx_covid19_bulletin_footer2<br/>
                             360dx_covid19_bulletin_footer3<br/>
                             </div>;
->>>>>>> v3
             default:
                 return null;
         }
