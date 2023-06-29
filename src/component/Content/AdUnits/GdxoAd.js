@@ -146,6 +146,17 @@ const GdxoAd= () => {
                         360dx_dnam_bulletin_footer2_fri<br/>
                         360dx_dnam_bulletin_footer3_fri<br/>
                        </div>;
+                       case "6":
+                        return <div>
+                            <h3>Corona</h3>
+                            <hr/>
+                            360dx_covid19_bulletin_center<br/>
+                            360dx_covid19_bulletin_bottom<br/>
+                            360dx_covid19_bulletin_bottom_2<br/>
+                            360dx_covid19_bulletin_footer1<br/>
+                            360dx_covid19_bulletin_footer2<br/>
+                            360dx_covid19_bulletin_footer3<br/>
+                            </div>;
             default:
                 return null;
         }
@@ -165,6 +176,7 @@ const GdxoAd= () => {
                 <MenuItem value="3">Wednesday</MenuItem>
                 <MenuItem value="4">Thursday</MenuItem>
                 <MenuItem value="5">Friday</MenuItem>
+                <MenuItem value="6">Friday</MenuItem>
             </Select >
             <FormHelperText style={{color:'white'}}>Izaberite Dan</FormHelperText>
             </FormControl>
