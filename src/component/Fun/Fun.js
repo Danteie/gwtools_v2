@@ -41,9 +41,8 @@ class Fun extends Component {
 
     render() {
        return(
-            <footer className="ba br2 pa1 ma2 mt4 bg-c w100">
+            <footer className="w100" >
                 <h2 className="center">FUN FACT</h2>
-                <hr/>
                 <h2 className="center f2 tc">{this.state.fact}</h2>
             </footer>
        )

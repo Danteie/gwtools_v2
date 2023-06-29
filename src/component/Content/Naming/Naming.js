@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import './Naming.css'
 import image from './webpos.png'
+import { Paper } from "@mui/material";
 
 class Naming extends Component{
     constructor(props) {
@@ -12,10 +13,9 @@ class Naming extends Component{
 
     render(){
         return (
-            <div className="ba br4 pa2 ma2 bg-c">
-                <h1 className="red center">Targeting za WEB kampanje</h1>
+            <Paper className="pa3" style={{backgroundColor:'#121212'}} >
                 <br/>
-                <h1 className="center">Genomeweb</h1>
+                <h1 className="center">GENOMEWEB</h1>
                 <table className="web-table">
                     <tr className="web-table-title">
                         <td>Channel</td>
@@ -220,7 +220,7 @@ class Naming extends Component{
                    
             <br/>
             <br/>
-            <h1 className="center">Precision Medicine Online</h1>
+            <h1 className="center">PRECISION MEDICINE ONLINE</h1>
         <table className="web-table">
                     <tr className="web-table-title">
                         <td>Channel</td>
@@ -244,10 +244,8 @@ class Naming extends Component{
         <br/>
         <br/>
             <hr/>
+            <h1 className="center">BANNERS POSITION</h1>
         <table className="web-table ">
-	<tr>
-		<h2>BANNERS POSITION</h2>
-	</tr>
 	<tr className="web-table-title">
 		<td>Position Name</td>
 		<td>Ad unit in GAM</td>
@@ -345,7 +343,7 @@ class Naming extends Component{
 </div>
 
 
-            </div> 
+            </Paper> 
         )
               
     }

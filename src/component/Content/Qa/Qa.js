@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import QaWeb from './QaWeb'
 import QaClick from './QaClick'
 import QaSpon from './QaSpon'
-
+import { MenuItem, Paper,Select,FormControl,FormHelperText} from "@mui/material";
 export default function Qa() {
 
     const [qa, setQa] = useState(null);
@@ -28,25 +28,27 @@ export default function Qa() {
     }
 
     return (
-        <div className="ba br4 pa2 ma2 bg-c w-100">
+        <Paper className="pa4 h-100 w-100 new" style={{backgroundColor:'#121212',color:"white"}} >
         <div>
-            <label>Izaberite Qa </label>
-            <select 
-            onClick={(event) => {
+        <FormControl sx={{ m: 4, width: 300 }}>
+            <Select style={{backgroundColor:'white'}}
+            onChange={(event) => {
                 // here set target value to state which is 1, 2, 3
                 setQa(event.target.value);
             }}>
-                <option defaultValue></option>
-                <option value="1">Web</option>
-                <option value="2">Bulletins: Click Tracking</option>
-                <option value="3">Bulletins: Sponsorship</option>
-            </select>
+                <MenuItem defaultValue></MenuItem>
+                <MenuItem value="1">Web</MenuItem>
+                <MenuItem value="2">Bulletins: Click Tracking</MenuItem>
+                <MenuItem value="3">Bulletins: Sponsorship</MenuItem>
+            </Select>
+            <FormHelperText style={{color:'white'}}>IZAVBERITE VRSTU QA</FormHelperText>
+        </FormControl>
         </div>
         <div className="flex">
             {getQaDiv()}
         </div>
             
-        </div>
+        </Paper>
     )
 }
 

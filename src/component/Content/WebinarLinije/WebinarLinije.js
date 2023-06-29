@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import {getCurrentDate} from '../../Utils/Date'
+import { Paper, Button} from "@mui/material";
+
 
 class WebinarLinije extends Component{
     constructor(props) {
@@ -59,7 +61,7 @@ class WebinarLinije extends Component{
 
     render(){
         return (
-            <div className="ba br4 pa2 ma2 bg-c">
+            <Paper elevation={1} style={{backgroundColor:'#121212',minHeight: "70rem"}} className="pa5">
                 <h1 className="center">WEBINAR</h1>
                 <div className="w-100 center">
                     <select id='site-option'>
@@ -78,15 +80,19 @@ class WebinarLinije extends Component{
                         <option value="06">6</option>
                     </select>
                 </div>
-               
-                <button type="sumbit" className="w-30 flex items-center center ma2" onClick={this.generate}>GENERISI</button>
+                <div className="w-50 flex items-center center ma4">
+                <Button variant="contained" type="sumbit" style={{width: '20rem'}} onClick={this.generate}>GENERISI</Button>
+                </div>
                 <h1 className="center">Order</h1>
                 <p className="center f3" id="order-name">site_advertiser_camp name</p>
+               
                 <div id='lines-div'>
                     <h1 className="center">Linije</h1>
                     <p className="center f3" id="lines">site_adv_camp_product_position_date</p>
+                    
                 </div>
-            </div>
+            </Paper>
+            
         )    
     }
 }

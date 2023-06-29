@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Paper } from "@mui/material";
 import img1 from './nwSetupImg/Newsletter Setup-1.jpg'
 import img2 from './nwSetupImg/Newsletter Setup-2.jpg'
 import img3 from './nwSetupImg/Newsletter Setup-3.jpg'
@@ -19,7 +20,7 @@ class NwSetup extends Component{
 
     render(){
         return (
-            <div className="ba br4 pa2 ma2 bg-c">
+            <Paper className="pa4" style={{backgroundColor:'#121212'}} >
                 <img src={img1} alt="slika1"></img>
                 <img src={img2} alt="slika1"></img>
                 <img src={img3} alt="slika1"></img>
@@ -29,7 +30,7 @@ class NwSetup extends Component{
                 <img src={img7} alt="slika1"></img>
                 <img src={img8} alt="slika1"></img>
                 <img src={img9} alt="slika1"></img>
-            </div> 
+            </Paper> 
         )
               
     }

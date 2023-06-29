@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { MenuItem,Select,FormControl,FormHelperText} from "@mui/material";
 
 const GdxoAd= () => {
 
@@ -7,7 +8,7 @@ const GdxoAd= () => {
     function getGdxoDiv(){
         switch(qa){
             case "1":
-                return <div>
+                return <div className="adunite">
                         <h3>Premium Weekly</h3>
                         <hr/>
                         360dx_premium_weekly_bulletin_top<br/>
@@ -29,7 +30,7 @@ const GdxoAd= () => {
                         360dx_dnam_bulletin_footer3_mon<br/>
                     </div>
             case "2":
-                return <div>
+                return <div className="adunite">
                         <h3>Molecular Diagnostics</h3>
                         <hr/>
                         360dx_molecular_diagnostics_bulletin_top_tue<br/>
@@ -52,7 +53,7 @@ const GdxoAd= () => {
                         360dx_dnam_bulletin_footer3_tue<br/>         
                     </div>
             case "3":
-                return <div>
+                return <div className="adunite">
                         <h3>Cancer</h3>
                         <hr/>
                         360dx_cancer_bulletin_top<br/>
@@ -75,7 +76,7 @@ const GdxoAd= () => {
                         360dx_dnam_bulletin_footer3_wed<br/>
                     </div>
             case "4":
-                return <div>
+                return <div className="adunite">
                         <h3>Clinical Lab Management</h3>
                         <hr/>
                         360dx_clinical_lab_management_top<br/>
@@ -108,7 +109,7 @@ const GdxoAd= () => {
                         360dx_dnam_bulletin_footer3_thu<br/>
                     </div>;
             case "5":
-                return <div>
+                return <div className="adunite">
                         <h3>Europe </h3>
                         <hr/>
                         360dx_europe_bulletin_bottom_2<br/>
@@ -146,17 +147,18 @@ const GdxoAd= () => {
                         360dx_dnam_bulletin_footer2_fri<br/>
                         360dx_dnam_bulletin_footer3_fri<br/>
                        </div>;
-                case "6":
-                    return <div>
-                        <h3>Corona</h3>
-                        <hr/>
-                        360dx_covid19_bulletin_center<br/>
-                        360dx_covid19_bulletin_bottom<br/>
-                        360dx_covid19_bulletin_bottom_2<br/>
-                        360dx_covid19_bulletin_footer1<br/>
-                        360dx_covid19_bulletin_footer2<br/>
-                        360dx_covid19_bulletin_footer3<br/>
-                        </div>;
+                       case "6":
+                        return <div>
+                            <h3>Corona</h3>
+                            <hr/>
+                            360dx_covid19_bulletin_center<br/>
+                            360dx_covid19_bulletin_bottom<br/>
+                            360dx_covid19_bulletin_bottom_2<br/>
+                            360dx_covid19_bulletin_footer1<br/>
+                            360dx_covid19_bulletin_footer2<br/>
+                            360dx_covid19_bulletin_footer3<br/>
+                            </div>;
+>>>>>>> v3
             default:
                 return null;
         }
@@ -164,23 +166,25 @@ const GdxoAd= () => {
 
     return (
         <div>
-        <div>
-            <label>Izaberite Dan  </label>
-            <select 
-            onClick={(event) => {
+        <FormControl sx={{ m: 4, width: 300 }}>
+            <Select style={{backgroundColor:'white'}}
+            onChange={(event) => {
                 // here set target value to state which is 1, 2, 3
                 setGx(event.target.value);
             }}>
-                <option defaultValue></option>
-                <option value="1">Monday</option>
-                <option value="2">Tuesday</option>
-                <option value="3">Wednesday</option>
-                <option value="4">Thursday</option>
-                <option value="5">Friday</option>
-                <option value="6">Saturday</option>
-            </select>
-        </div>
-        <div className="flex">
+
+                <MenuItem defaultValue></MenuItem>
+                <MenuItem value="1">Monday</MenuItem>
+                <MenuItem value="2">Tuesday</MenuItem>
+                <MenuItem value="3">Wednesday</MenuItem>
+                <MenuItem value="4">Thursday</MenuItem>
+                <MenuItem value="5">Friday</MenuItem>
+                <MenuItem value="6">Friday</MenuItem>
+            </Select >
+            <FormHelperText style={{color:'white'}}>Izaberite Dan</FormHelperText>
+            </FormControl>
+        <div className="offset">
+
             {getGdxoDiv()}
         </div>
             
