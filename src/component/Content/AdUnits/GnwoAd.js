@@ -71,7 +71,7 @@ const GnwoAd= () => {
                 
             case "2":
                 return (
-                    <div>
+                    <div className="adunite">
                         <h3>Sequencing</h3>
                         <hr/>
                         gw_sequencing_bulletin_top_tue<br/>
@@ -134,7 +134,7 @@ const GnwoAd= () => {
                 )
             case "3":
                 return (
-                    <div>
+                    <div className="adunite">
                         <h3>PCR</h3>
                         <hr/>
                         gw_pcr_bulletin_top<br/>
@@ -187,7 +187,7 @@ const GnwoAd= () => {
                     </div>
                 )
             case "4":
-                return <div>
+                return <div className="adunite">
                         <h3>Sequencing</h3>
                         <hr/>
                         gw_cancer_bulletin_top_thu<br/>
@@ -239,7 +239,7 @@ const GnwoAd= () => {
                         gw_dsbl_bulletin_footer3_thu<br/>
                     </div>;
             case "5":
-                return <div>
+                return <div className="adunite">
                         <h3>Europe </h3>
                         <hr/>
                         gw_europe_bulletin_bottom_2<br/>

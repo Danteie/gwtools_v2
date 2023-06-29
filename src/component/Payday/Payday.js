@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./Payday.css"
 
 const Menu = () => {
     let newDate = new Date()
@@ -7,7 +7,7 @@ const Menu = () => {
     let day = 29 - date
 
     return(
-        <div className="ba br2 pa2 ma2 mt4 bg-c">
+        <div className=" ma2 pa2 mt4 frame">
                 <h2 className="center">PAYDAY</h2>
                 <hr/>
                 <h2 className="center f2 tc">{day}</h2>    

@@ -30,7 +30,7 @@ const GdxoAd= () => {
                         360dx_dnam_bulletin_footer3_mon<br/>
                     </div>
             case "2":
-                return <div>
+                return <div className="adunite">
                         <h3>Molecular Diagnostics</h3>
                         <hr/>
                         360dx_molecular_diagnostics_bulletin_top_tue<br/>
@@ -53,7 +53,7 @@ const GdxoAd= () => {
                         360dx_dnam_bulletin_footer3_tue<br/>         
                     </div>
             case "3":
-                return <div>
+                return <div className="adunite">
                         <h3>Cancer</h3>
                         <hr/>
                         360dx_cancer_bulletin_top<br/>
@@ -76,7 +76,7 @@ const GdxoAd= () => {
                         360dx_dnam_bulletin_footer3_wed<br/>
                     </div>
             case "4":
-                return <div>
+                return <div className="adunite">
                         <h3>Clinical Lab Management</h3>
                         <hr/>
                         360dx_clinical_lab_management_top<br/>
@@ -109,7 +109,7 @@ const GdxoAd= () => {
                         360dx_dnam_bulletin_footer3_thu<br/>
                     </div>;
             case "5":
-                return <div>
+                return <div className="adunite">
                         <h3>Europe </h3>
                         <hr/>
                         360dx_europe_bulletin_bottom_2<br/>

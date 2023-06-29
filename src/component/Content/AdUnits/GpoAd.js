@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { MenuItem,Select,FormControl,FormHelperText} from "@mui/material";
 
 const GpoAd= () => {
 
@@ -7,7 +8,7 @@ const GpoAd= () => {
     function getGpoDiv(){
         switch(qa){
             case "1":
-                return <div>
+                return <div className="adunite">
                         <h3>Daily News</h3>
                         <hr/>
                         pon_dnam_bulletin_top_mon<br/>
@@ -18,9 +19,9 @@ const GpoAd= () => {
                         pon_dnam_bulletin_footer1_mon<br/>
                         pon_dnam_bulletin_footer2_mon<br/>
                         pon_dnam_bulletin_footer3_mon<br/>
-                    </div>
+                    </div >
             case "2":
-                return <div>
+                return <div className="adunite">
                         <h3>Daily News</h3>
                         <hr/>
                         pon_dnam_bulletin_toptue<br/>
@@ -45,7 +46,7 @@ const GpoAd= () => {
                         <br/>
                     </div>
             case "3":
-                return <div>
+                return <div className="adunite">
                         <h3>Daily News</h3>
                         <hr/>
                         pon_dnam_bulletin_top_wed<br/>
@@ -58,7 +59,7 @@ const GpoAd= () => {
                         pon_dnam_bulletin_footer3_wed<br/>
                     </div>
             case "4":
-                return <div>
+                return <div className="adunite">
                        <h3>Daily News</h3>
                         <hr/>
                         pon_dnam_bulletin_top_thu<br/>
@@ -83,7 +84,7 @@ const GpoAd= () => {
                         <br/>
                     </div>;
             case "5":
-                return <div>
+                return <div className="adunite">
                         <h3>Daily News</h3>
                         <hr/>
                         pon_dnam_bulletin_top_fri<br/>
@@ -102,22 +103,23 @@ const GpoAd= () => {
 
     return (
         <div>
-        <div>
-            <label>Izaberite Dan  </label>
-            <select 
-            onClick={(event) => {
+       
+        <FormControl sx={{ m: 4, width: 300 }}>
+            <Select style={{backgroundColor:'white'}}
+            onChange={(event) => {
                 // here set target value to state which is 1, 2, 3
                 setGp(event.target.value);
             }}>
-                <option defaultValue></option>
-                <option value="1">Monday</option>
-                <option value="2">Tuesday</option>
-                <option value="3">Wednesday</option>
-                <option value="4">Thursday</option>
-                <option value="5">Friday</option>
-            </select>
-        </div>
-        <div className="flex">
+                <MenuItem defaultValue></MenuItem>
+                <MenuItem value="1">Monday</MenuItem>
+                <MenuItem value="2">Tuesday</MenuItem>
+                <MenuItem value="3">Wednesday</MenuItem>
+                <MenuItem value="4">Thursday</MenuItem>
+                <MenuItem value="5">Friday</MenuItem>
+            </Select>
+            <FormHelperText style={{color:'white'}}>Izaberite Dan</FormHelperText>
+        </FormControl>
+        <div className="offset">
             {getGpoDiv()}
         </div>
             

@@ -35,10 +35,10 @@ class Home extends Component{
 
         return (
         <Paper className="home h-100 w-100" style={{backgroundColor:'#121212'}} >
-            <div className="input-name">
+            {/* <div className="input-name">
                 <Input className='ma2 pa2'   onChange={testLocal} style={{backgroundColor:'white'}}/>
                 <Button className='ma2 pa2' variant="contained" onClick={noName}>Sumbit</Button>
-            </div>
+            </div> */}
 
             <div className="center-content">
                  <img src={work} className='center' alt="work"/>

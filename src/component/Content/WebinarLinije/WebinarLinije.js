@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import {getCurrentDate} from '../../Utils/Date'
-import { Paper, TextField} from "@mui/material";
+import { Paper, Button} from "@mui/material";
 
 
 class WebinarLinije extends Component{
@@ -61,7 +61,7 @@ class WebinarLinije extends Component{
 
     render(){
         return (
-            <Paper elevation={1} style={{backgroundColor:'black'}} className="pa5">
+            <Paper elevation={1} style={{backgroundColor:'#121212',minHeight: "70rem"}} className="pa5">
                 <h1 className="center">WEBINAR</h1>
                 <div className="w-100 center">
                     <select id='site-option'>
@@ -80,8 +80,9 @@ class WebinarLinije extends Component{
                         <option value="06">6</option>
                     </select>
                 </div>
-               
-                <button type="sumbit" className="w-30 flex items-center center ma2" onClick={this.generate}>GENERISI</button>
+                <div className="w-50 flex items-center center ma4">
+                <Button variant="contained" type="sumbit" style={{width: '20rem'}} onClick={this.generate}>GENERISI</Button>
+                </div>
                 <h1 className="center">Order</h1>
                 <p className="center f3" id="order-name">site_advertiser_camp name</p>
                
@@ -90,7 +91,6 @@ class WebinarLinije extends Component{
                     <p className="center f3" id="lines">site_adv_camp_product_position_date</p>
                     
                 </div>
-                
             </Paper>
             
         )    

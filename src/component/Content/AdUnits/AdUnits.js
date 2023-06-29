@@ -30,7 +30,7 @@ export default function AdUnits() {
     }
 
     return (
-        <Paper className="pa4 h-100 w-100 new" style={{backgroundColor:'#121212',color:"white"}} >
+        <Paper className="pa4 h-100 w-100 new" style={{backgroundColor:'#121212',color:"white",minHeight: "70rem"}} >
          <div className="flex center">
                 <FormControl sx={{ m: 4, width: 300 }}>
                     <Select  style={{backgroundColor:'white'}}
