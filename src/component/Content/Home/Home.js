@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import work from './work.png'
+import mine from './mine.png'
 import './Home.css'
 import Fun from "../../Fun/Fun";
 import Payday from '../../Payday/Payday'
@@ -41,7 +42,7 @@ class Home extends Component{
             </div> */}
 
             <div className="center-content">
-                 <img src={work} className='center' alt="work"/>
+                 <img src={mine} className='center' alt="mine"/>
             </div>
             <Paper className='flex w-100' style={{backgroundColor:'rgba(255, 255, 255, 0.12)'}}>
                 <Fun />
