@@ -188,7 +188,7 @@ const GnwoAd= () => {
                 )
             case "4":
                 return <div className="adunite">
-                        <h3>Sequencing</h3>
+                        <h3>Cancer</h3>
                         <hr/>
                         gw_cancer_bulletin_top_thu<br/>
                         gw_cancer_bulletin_middle_mrec_thu<br/>
@@ -208,7 +208,7 @@ const GnwoAd= () => {
                         gw_molecular_diagnostics_bulletin_footer1_thu<br/>
                         gw_molecular_diagnostics_bulletin_footer2_thu<br/>
                         gw_molecular_diagnostics_bulletin_footer3_thu<br/>  
-                        <h3>Daily News AM</h3>
+                        <h3>Molecular</h3>
                         <hr/> 
                         gw_dnam_bulletin_top_thu<br/>
                         gw_dnam_bulletin_middle_mrec_thu<br/>
