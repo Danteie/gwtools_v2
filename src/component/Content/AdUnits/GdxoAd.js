@@ -79,7 +79,7 @@ const GdxoAd= () => {
                 return <div className="adunite">
                         <h3>Clinical Lab Management</h3>
                         <hr/>
-                        360dx_clinical_lab_management_top<br/>
+                        360dx_clinical_lab_management_bulletin_top<br/>
                         360dx_clinical_lab_management_bulletin_middle_mrec<br/>
                         360dx_clinical_lab_management_bulletin_center<br/>
                         360dx_clinical_lab_management_bulletin_bottom<br/>
@@ -112,6 +112,7 @@ const GdxoAd= () => {
                 return <div className="adunite">
                         <h3>Europe </h3>
                         <hr/>
+                        360dx_europe_bulletin_top<br/>
                         360dx_europe_bulletin_bottom_2<br/>
                         360dx_europe_bulletin_footer1<br/>
                         360dx_europe_bulletin_footer2<br/>
