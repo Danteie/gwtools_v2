@@ -124,6 +124,7 @@ const GnwoAd= () => {
                         <h3>LBBL</h3>
                         <hr/>
                         gw_liquid_biopsy_bulletin_top<br/>
+                        gw_liquid_biopsy_bulletin_middle_mrec<br/>
                         gw_liquid_biopsy_bulletin_center<br/>
                         gw_liquid_biopsy_bulletin_bottom<br/>
                         gw_liquid_biopsy_bulletin_bottom_2<br/>
