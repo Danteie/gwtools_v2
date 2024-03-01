@@ -179,7 +179,7 @@ const GdxoAd= () => {
                 <MenuItem value="3">Wednesday</MenuItem>
                 <MenuItem value="4">Thursday</MenuItem>
                 <MenuItem value="5">Friday</MenuItem>
-                <MenuItem value="6">Friday</MenuItem>
+                <MenuItem value="6">Saturday</MenuItem>
             </Select >
             <FormHelperText style={{color:'white'}}>Izaberite Dan</FormHelperText>
             </FormControl>
