@@ -22,7 +22,7 @@ const GpoAd= () => {
                     </div >
             case "2":
                 return <div className="adunite">
-                        <h3>Daily News</h3>
+                        <h3>DNBL - Precision Oncology News Alert</h3>
                         <hr/>
                         pon_dnam_bulletin_toptue<br/>
                         pon_dnam_bulletin_middle_mrec_tue<br/>
@@ -32,7 +32,7 @@ const GpoAd= () => {
                         pon_dnam_bulletin_footer1_tue<br/>
                         pon_dnam_bulletin_footer2_tue<br/>
                         pon_dnam_bulletin_footer3_tue<br/>
-                        <h3>Precision Oncology</h3>
+                        <h3>PABL - Precision Medicine Online News Alert</h3>
                         <hr/>
                         pmo_dnam_bulletin_top_tues<br/>
                         pmo_dnam_bulletin_center_tues<br/>
