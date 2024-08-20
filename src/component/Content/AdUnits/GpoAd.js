@@ -19,6 +19,15 @@ const GpoAd= () => {
                         pon_dnam_bulletin_footer1_mon<br/>
                         pon_dnam_bulletin_footer2_mon<br/>
                         pon_dnam_bulletin_footer3_mon<br/>
+                        <h3>PABL - Precision Medicine Online News Alert</h3>
+                        <hr/>
+                        pmo_dnam_bulletin_top_mon<br/>
+                        pmo_dnam_bulletin_top_mon<br/>
+                        pmo_dnam_bulletin_center_mon<br/>
+                        pmo_dnam_bulletin_bottom_mon<br/>
+                        pmo_dnam_bulletin_bottom2_mon<br/>
+                        <br/>
+                        <br/>
                     </div >
             case "2":
                 return <div className="adunite">
@@ -57,7 +66,16 @@ const GpoAd= () => {
                         pon_dnam_bulletin_footer1_wed<br/>
                         pon_dnam_bulletin_footer2_wed<br/>
                         pon_dnam_bulletin_footer3_wed<br/>
-                    </div>
+                        <h3>PABL - Precision Medicine Online News Alert</h3>
+                        <hr/>
+                        pmo_dnam_bulletin_top_wed<br/>
+                        pmo_dnam_bulletin_top_wed<br/>
+                        pmo_dnam_bulletin_center_wed<br/>
+                        pmo_dnam_bulletin_bottom_wed<br/>
+                        pmo_dnam_bulletin_bottom2_wed<br/>
+                        <br/>
+                        <br/>
+                    </div>    
             case "4":
                 return <div className="adunite">
                        <h3>DNBL - Precision Oncology News Alert</h3>
@@ -95,6 +113,15 @@ const GpoAd= () => {
                         pon_dnam_bulletin_footer1_fri<br/>
                         pon_dnam_bulletin_footer2_fri<br/>
                         pon_dnam_bulletin_footer3_fri<br/>
+                        <h3>PABL - Precision Medicine Online News Alert</h3>
+                        <hr/>
+                        pmo_dnam_bulletin_top_fri<br/>
+                        pmo_dnam_bulletin_top_fri<br/>
+                        pmo_dnam_bulletin_center_fri<br/>
+                        pmo_dnam_bulletin_bottom_fri<br/>
+                        pmo_dnam_bulletin_bottom2_fri<br/>
+                        <br/>
+                        <br/>
                        </div>;
             default:
                 return null;
