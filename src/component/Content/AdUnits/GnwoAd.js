@@ -243,6 +243,7 @@ const GnwoAd= () => {
                 return <div className="adunite">
                         <h3>Europe </h3>
                         <hr/>
+                        gw_europe_bulletin_top<br/>
                         gw_europe_bulletin_bottom_2<br/>
                         gw_europe_bulletin_footer1<br/>
                         gw_europe_bulletin_footer2<br/>
