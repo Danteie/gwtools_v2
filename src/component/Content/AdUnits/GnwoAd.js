@@ -66,6 +66,16 @@ const GnwoAd= () => {
                         gw_dsbl_bulletin_footer1_mon<br/>
                         gw_dsbl_bulletin_footer2_mon<br/>
                         gw_dsbl_bulletin_footer3_mon<br/>
+                        <h3>Weekly Premium</h3>
+                        <hr/>
+                        gw_gwpremium_top<br/>
+                        gw_gwpremium_middle_mrec<br/>
+                        gw_gwpremium_center<br/>
+                        gw_gwpremium_bottom<br/>
+                        gw_gwpremium_bottom_2<br/>
+                        gw_gwpremium_footer1<br/>
+                        gw_gwpremium_footer2<br/>
+                        gw_gwpremium_footer3<br/>
                     </div>
                 )
                 
