@@ -69,7 +69,7 @@ class Naming extends Component{
                         <td>Gene Expression Research</td>
                         <td>WGENEX</td>
                         <td>normal 8</td>
-                        <td>subchannel=Gene-Expression-Research</td>
+                        <td>subchannel=gene-expression-rna-sequencing</td>
                     </tr>
                     <tr>
                         <td>Gene Silencing / Gene Editing</td>
