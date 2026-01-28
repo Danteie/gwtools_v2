@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import './Naming.css'
 import image from './webpos.png'
+import image1 from './Interstitial.png'
 import { Paper } from "@mui/material";
 
 class Naming extends Component{
@@ -23,11 +24,18 @@ class Naming extends Component{
                         <td>Priority in GAM</td>
                         <td>Targeting-Key value in GAM</td>
                     </tr>
+                   
                     <tr>
                         <td>Basic</td>
                         <td>WBASE</td>
                         <td>low 10</td>
                         <td>www.genomeweb.com</td>
+                    </tr>
+                     <tr className="red">
+                        <td>Diagnostics</td>
+                        <td>WDIAG</td>
+                        <td>normal 8</td>
+                        <td><b>channel</b>=diagnostics</td>
                     </tr>
                     <tr>
                         <td>Cancer</td>
@@ -336,11 +344,21 @@ class Naming extends Component{
 		<td>320x50</td>
 		<td>MOB_LB_01</td>
 	</tr>
+    <tr>
+		<td>Interstitial</td>
+		<td>interstitial</td>
+		<td>640x480</td>
+		<td>INT</td>
+	</tr>
 </table>
 <hr/>
 <div className="web-image pa4">
+    <img src={image1} alt='web naming'/>
+</div>
+<div className="web-image pa4">
     <img src={image} alt='web naming'/>
 </div>
+
 
 
             </Paper> 
